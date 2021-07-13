@@ -10,3 +10,12 @@ We limit are selfs to:
 
 
 Output results save into a json files.
+
+
+# TODO(features): 
+
+- get current prices from amazon.com (or similar)
+- get past prices ??? camelcamelcamel.com 
+- get secondhand prices craigslist.org
+	https://newyork.craigslist.org/d/cell-phones/search/moa
+- find reviews reddit.com 
