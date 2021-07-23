@@ -104,7 +104,7 @@ def smartphones_scraper(brand: str) -> list[dict]:
     smartphones_links = get_phone_list(smartphones_search_pages)
 
     # get smartphones data
-    smartphones_pages = get_pages(smartphones_links[:100])
+    smartphones_pages = get_pages(smartphones_links)
     smartphones_data = [get_phone_data(page) for page in smartphones_pages if page.ok]
 
     print(f"got all {brand} smartphones data")
