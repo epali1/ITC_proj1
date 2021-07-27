@@ -90,6 +90,23 @@ def get_phone_list(pages: list[requests.models.Response]) -> list[str]:
             for ele in soup.find('div', class_="makers").find_all('li')]
 
 
+def _get_table_val(val):
+    """
+    a helper function that organized the table value.
+    """
+    text = val.text.strip()
+    if val.br:
+        val = ", ".join(text.split('\r\n'))
+    elif val.sup:
+        val = "".join(map(str, val.contents))
+    elif NON_BREAK_SPACE in text:
+        val = ", ".join(text.split(f' {NON_BREAK_SPACE} {NON_BREAK_SPACE} '))
+    else:
+        val = text
+
+    return val
+
+
 def get_phone_data(page: requests.models.Response) -> dict:
     """
     return all phone properties from website as a dict.
@@ -109,15 +126,17 @@ def get_phone_data(page: requests.models.Response) -> dict:
                 key = sub_table.find('td', class_='ttl')
                 val = sub_table.find('td', class_='nfo')
                 if key and key.text != NON_BREAK_SPACE:
-                    phone_data[phone_name][title][key.text.replace(NON_BREAK_SPACE, ' ')] = \
-                        val.text.replace(NON_BREAK_SPACE, ' ')
+                    val = _get_table_val(val)
+                    phone_data[phone_name][title][key.text.replace(NON_BREAK_SPACE, ' ')] = val
+
                 else:
                     if val:
+                        val = _get_table_val(val)
                         try:
-                            phone_data[phone_name][title]['other'].append(val.text.replace(NON_BREAK_SPACE, ' '))
+                            phone_data[phone_name][title]['other'].append(val)
                         except KeyError:
                             phone_data[phone_name][title]['other'] = []
-                            phone_data[phone_name][title]['other'].append(val.text.replace(NON_BREAK_SPACE, ' '))
+                            phone_data[phone_name][title]['other'].append(val)
 
     return phone_data
 
