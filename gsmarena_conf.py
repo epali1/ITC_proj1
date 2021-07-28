@@ -1,7 +1,6 @@
 """
 This is config file for "GSMarena" scraper.
 """
-# GOOGLE_SEARCH = 'https://www.google.com/search?q='
 MAIN_SITE = 'https://www.gsmarena.com'
 SEARCH_PAGE = '/search.php3?nYearMin={}&nYearMax={}&sMakers={}&sAvailabilities={}&sFormFactors={}'
 RESULTS_PAGE = '/results.php3?nYearMin={}&nYearMax={}&sMakers={}&sAvailabilities={}&sFormFactors={}'
@@ -33,7 +32,4 @@ REQUEST_HEADER = {'User-Agent': 'Mozilla/5.0'}
 REQUEST_DELAY = 3
 GSMARENA_MAX_RETRIES = 3  # number of retry the same request before raise ConnectionError
 GSMARENA_TIMEOUT = 3  # number of seconds to wait on a response before timing out
-
-# test
-# print(MAIN_SITE + RESULTS_PAGE.format(2009, 2009, APPLE, AVAILABLE, FORM_FACTOR))
 

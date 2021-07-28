@@ -1,551 +1,117 @@
-2021-07-27 23:14:37,673 - __main__ - INFO - Start scraping all 48 smartphone data from www.gsmarena.com
-2021-07-27 23:14:37,673 - __main__ - INFO - Prepared 13 search links
-2021-07-27 23:14:37,673 - __main__ - INFO - Start url request 1 / 13: https://www.gsmarena.com/results.php3?nYearMin=2009&nYearMax=2009&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:38,249 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:38,250 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:41,257 - __main__ - INFO - Start url request 2 / 13: https://www.gsmarena.com/results.php3?nYearMin=2010&nYearMax=2010&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:41,413 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:41,413 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:44,421 - __main__ - INFO - Start url request 3 / 13: https://www.gsmarena.com/results.php3?nYearMin=2011&nYearMax=2011&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:44,756 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:44,756 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:47,768 - __main__ - INFO - Start url request 4 / 13: https://www.gsmarena.com/results.php3?nYearMin=2012&nYearMax=2012&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:47,931 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:47,932 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:50,937 - __main__ - INFO - Start url request 5 / 13: https://www.gsmarena.com/results.php3?nYearMin=2013&nYearMax=2013&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:51,117 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:51,117 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:54,119 - __main__ - INFO - Start url request 6 / 13: https://www.gsmarena.com/results.php3?nYearMin=2014&nYearMax=2014&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:54,348 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:54,349 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:14:57,354 - __main__ - INFO - Start url request 7 / 13: https://www.gsmarena.com/results.php3?nYearMin=2015&nYearMax=2015&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:14:57,555 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:14:57,555 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:00,565 - __main__ - INFO - Start url request 8 / 13: https://www.gsmarena.com/results.php3?nYearMin=2016&nYearMax=2016&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:00,727 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:00,727 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:03,742 - __main__ - INFO - Start url request 9 / 13: https://www.gsmarena.com/results.php3?nYearMin=2017&nYearMax=2017&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:03,897 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:03,897 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:06,897 - __main__ - INFO - Start url request 10 / 13: https://www.gsmarena.com/results.php3?nYearMin=2018&nYearMax=2018&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:07,060 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:07,060 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:10,061 - __main__ - INFO - Start url request 11 / 13: https://www.gsmarena.com/results.php3?nYearMin=2019&nYearMax=2019&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:10,216 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:10,216 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:13,232 - __main__ - INFO - Start url request 12 / 13: https://www.gsmarena.com/results.php3?nYearMin=2020&nYearMax=2020&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:13,395 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:13,395 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:16,410 - __main__ - INFO - Start url request 13 / 13: https://www.gsmarena.com/results.php3?nYearMin=2021&nYearMax=2021&sMakers=48&sAvailabilities=1,3&sFormFactors=1
-2021-07-27 23:15:16,564 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:16,564 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:19,579 - __main__ - INFO - Got 13 search pages
-2021-07-27 23:15:19,579 - __main__ - INFO - Start getting all smartphone links from the search pages.
-2021-07-27 23:15:19,694 - __main__ - INFO - Prepared 28 smartphone links
-2021-07-27 23:15:19,694 - __main__ - INFO - Start url request 1 / 28: https://www.gsmarena.com/apple_iphone_3gs-2826.php
-2021-07-27 23:15:19,864 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:19,864 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:22,878 - __main__ - INFO - Start url request 2 / 28: https://www.gsmarena.com/apple_iphone_4-3275.php
-2021-07-27 23:15:23,063 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:23,063 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:26,074 - __main__ - INFO - Start url request 3 / 28: https://www.gsmarena.com/apple_iphone_4s-4212.php
-2021-07-27 23:15:26,259 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:26,259 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:29,261 - __main__ - INFO - Start url request 4 / 28: https://www.gsmarena.com/apple_iphone_4_cdma-3716.php
-2021-07-27 23:15:29,446 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:29,446 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:32,446 - __main__ - INFO - Start url request 5 / 28: https://www.gsmarena.com/apple_iphone_5-4910.php
-2021-07-27 23:15:32,615 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:32,615 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:35,621 - __main__ - INFO - Start url request 6 / 28: https://www.gsmarena.com/apple_iphone_5s-5685.php
-2021-07-27 23:15:35,881 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:35,881 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:38,895 - __main__ - INFO - Start url request 7 / 28: https://www.gsmarena.com/apple_iphone_5c-5690.php
-2021-07-27 23:15:39,087 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:39,087 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:42,088 - __main__ - INFO - Start url request 8 / 28: https://www.gsmarena.com/apple_iphone_6-6378.php
-2021-07-27 23:15:42,373 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:42,373 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:45,382 - __main__ - INFO - Start url request 9 / 28: https://www.gsmarena.com/apple_iphone_6_plus-6665.php
-2021-07-27 23:15:45,652 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:45,652 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:48,658 - __main__ - INFO - Start url request 10 / 28: https://www.gsmarena.com/apple_iphone_6s-7242.php
-2021-07-27 23:15:48,842 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:48,842 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:51,852 - __main__ - INFO - Start url request 11 / 28: https://www.gsmarena.com/apple_iphone_6s_plus-7243.php
-2021-07-27 23:15:52,053 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:52,053 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:55,065 - __main__ - INFO - Start url request 12 / 28: https://www.gsmarena.com/apple_iphone_7-8064.php
-2021-07-27 23:15:55,467 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:55,467 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:15:58,480 - __main__ - INFO - Start url request 13 / 28: https://www.gsmarena.com/apple_iphone_7_plus-8065.php
-2021-07-27 23:15:58,746 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:15:58,746 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:01,761 - __main__ - INFO - Start url request 14 / 28: https://www.gsmarena.com/apple_iphone_se-7969.php
-2021-07-27 23:16:01,928 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:01,928 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:04,930 - __main__ - INFO - Start url request 15 / 28: https://www.gsmarena.com/apple_iphone_8_plus-8131.php
-2021-07-27 23:16:05,108 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:05,109 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:08,115 - __main__ - INFO - Start url request 16 / 28: https://www.gsmarena.com/apple_iphone_x-8858.php
-2021-07-27 23:16:08,526 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:08,526 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:11,538 - __main__ - INFO - Start url request 17 / 28: https://www.gsmarena.com/apple_iphone_8-8573.php
-2021-07-27 23:16:11,877 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:11,877 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:14,892 - __main__ - INFO - Start url request 18 / 28: https://www.gsmarena.com/apple_iphone_xr-9320.php
-2021-07-27 23:16:15,162 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:15,162 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:18,178 - __main__ - INFO - Start url request 19 / 28: https://www.gsmarena.com/apple_iphone_xs_max-9319.php
-2021-07-27 23:16:18,448 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:18,448 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:21,459 - __main__ - INFO - Start url request 20 / 28: https://www.gsmarena.com/apple_iphone_xs-9318.php
-2021-07-27 23:16:21,831 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:21,832 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:24,833 - __main__ - INFO - Start url request 21 / 28: https://www.gsmarena.com/apple_iphone_11-9848.php
-2021-07-27 23:16:25,336 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:25,336 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:28,340 - __main__ - INFO - Start url request 22 / 28: https://www.gsmarena.com/apple_iphone_11_pro_max-9846.php
-2021-07-27 23:16:28,694 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:28,695 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:31,709 - __main__ - INFO - Start url request 23 / 28: https://www.gsmarena.com/apple_iphone_11_pro-9847.php
-2021-07-27 23:16:32,258 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:32,258 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:35,263 - __main__ - INFO - Start url request 24 / 28: https://www.gsmarena.com/apple_iphone_12_pro_max-10237.php
-2021-07-27 23:16:35,612 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:35,613 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:38,617 - __main__ - INFO - Start url request 25 / 28: https://www.gsmarena.com/apple_iphone_12-10509.php
-2021-07-27 23:16:39,073 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:39,073 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:42,078 - __main__ - INFO - Start url request 26 / 28: https://www.gsmarena.com/apple_iphone_12_pro-10508.php
-2021-07-27 23:16:42,364 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:42,364 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:45,375 - __main__ - INFO - Start url request 27 / 28: https://www.gsmarena.com/apple_iphone_12_mini-10510.php
-2021-07-27 23:16:45,662 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:45,662 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:48,672 - __main__ - INFO - Start url request 28 / 28: https://www.gsmarena.com/apple_iphone_se_(2020)-10170.php
-2021-07-27 23:16:48,945 - __main__ - DEBUG - Url request succeeded.
-2021-07-27 23:16:48,945 - __main__ - DEBUG - Site request delay: 3
-2021-07-27 23:16:51,950 - __main__ - INFO - Got 28 smartphone pages
-2021-07-27 23:16:51,971 - __main__ - INFO - Extract Apple iPhone 3GS data from https://www.gsmarena.com/apple_iphone_3gs-2826.php
-2021-07-27 23:16:51,971 - __main__ - DEBUG - Extract Apple iPhone 3GS: Network
-2021-07-27 23:16:51,971 - __main__ - DEBUG - Extract Apple iPhone 3GS: Launch
-2021-07-27 23:16:51,971 - __main__ - DEBUG - Extract Apple iPhone 3GS: Body
-2021-07-27 23:16:51,971 - __main__ - DEBUG - Extract Apple iPhone 3GS: Display
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Platform
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Memory
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Main Camera
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Selfie camera
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Sound
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Comms
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Features
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Battery
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Misc
-2021-07-27 23:16:51,987 - __main__ - DEBUG - Extract Apple iPhone 3GS: Tests
-2021-07-27 23:16:52,002 - __main__ - INFO - Extract Apple iPhone 4 data from https://www.gsmarena.com/apple_iphone_4-3275.php
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Network
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Launch
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Body
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Display
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Platform
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Memory
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Main Camera
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Selfie camera
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Sound
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Comms
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Features
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Battery
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Misc
-2021-07-27 23:16:52,002 - __main__ - DEBUG - Extract Apple iPhone 4: Tests
-2021-07-27 23:16:52,058 - __main__ - INFO - Extract Apple iPhone 4s data from https://www.gsmarena.com/apple_iphone_4s-4212.php
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Network
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Launch
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Body
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Display
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Platform
-2021-07-27 23:16:52,058 - __main__ - DEBUG - Extract Apple iPhone 4s: Memory
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Main Camera
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Selfie camera
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Sound
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Comms
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Features
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Battery
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Misc
-2021-07-27 23:16:52,066 - __main__ - DEBUG - Extract Apple iPhone 4s: Tests
-2021-07-27 23:16:52,088 - __main__ - INFO - Extract Apple iPhone 4 CDMA data from https://www.gsmarena.com/apple_iphone_4_cdma-3716.php
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Network
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Launch
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Body
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Display
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Platform
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Memory
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Main Camera
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Selfie camera
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Sound
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Comms
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Features
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Battery
-2021-07-27 23:16:52,088 - __main__ - DEBUG - Extract Apple iPhone 4 CDMA: Misc
-2021-07-27 23:16:52,119 - __main__ - INFO - Extract Apple iPhone 5 data from https://www.gsmarena.com/apple_iphone_5-4910.php
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Network
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Launch
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Body
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Display
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Platform
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Memory
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Main Camera
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Selfie camera
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Sound
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Comms
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Features
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Battery
-2021-07-27 23:16:52,119 - __main__ - DEBUG - Extract Apple iPhone 5: Misc
-2021-07-27 23:16:52,127 - __main__ - DEBUG - Extract Apple iPhone 5: Tests
-2021-07-27 23:16:52,150 - __main__ - INFO - Extract Apple iPhone 5s data from https://www.gsmarena.com/apple_iphone_5s-5685.php
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Network
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Launch
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Body
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Display
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Platform
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Memory
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Main Camera
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Selfie camera
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Sound
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Comms
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Features
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Battery
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Misc
-2021-07-27 23:16:52,150 - __main__ - DEBUG - Extract Apple iPhone 5s: Tests
-2021-07-27 23:16:52,178 - __main__ - INFO - Extract Apple iPhone 5c data from https://www.gsmarena.com/apple_iphone_5c-5690.php
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Network
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Launch
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Body
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Display
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Platform
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Memory
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Main Camera
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Selfie camera
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Sound
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Comms
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Features
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Battery
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Misc
-2021-07-27 23:16:52,181 - __main__ - DEBUG - Extract Apple iPhone 5c: Tests
-2021-07-27 23:16:52,211 - __main__ - INFO - Extract Apple iPhone 6 data from https://www.gsmarena.com/apple_iphone_6-6378.php
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Network
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Launch
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Body
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Display
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Platform
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Memory
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Main Camera
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Selfie camera
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Sound
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Comms
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Features
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Battery
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Misc
-2021-07-27 23:16:52,211 - __main__ - DEBUG - Extract Apple iPhone 6: Tests
-2021-07-27 23:16:52,248 - __main__ - INFO - Extract Apple iPhone 6 Plus data from https://www.gsmarena.com/apple_iphone_6_plus-6665.php
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Network
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Launch
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Body
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Display
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Platform
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Memory
-2021-07-27 23:16:52,250 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Main Camera
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Selfie camera
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Sound
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Comms
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Features
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Battery
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Misc
-2021-07-27 23:16:52,252 - __main__ - DEBUG - Extract Apple iPhone 6 Plus: Tests
-2021-07-27 23:16:52,283 - __main__ - INFO - Extract Apple iPhone 6s data from https://www.gsmarena.com/apple_iphone_6s-7242.php
-2021-07-27 23:16:52,284 - __main__ - DEBUG - Extract Apple iPhone 6s: Network
-2021-07-27 23:16:52,284 - __main__ - DEBUG - Extract Apple iPhone 6s: Launch
-2021-07-27 23:16:52,284 - __main__ - DEBUG - Extract Apple iPhone 6s: Body
-2021-07-27 23:16:52,284 - __main__ - DEBUG - Extract Apple iPhone 6s: Display
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Platform
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Memory
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Main Camera
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Selfie camera
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Sound
-2021-07-27 23:16:52,285 - __main__ - DEBUG - Extract Apple iPhone 6s: Comms
-2021-07-27 23:16:52,286 - __main__ - DEBUG - Extract Apple iPhone 6s: Features
-2021-07-27 23:16:52,286 - __main__ - DEBUG - Extract Apple iPhone 6s: Battery
-2021-07-27 23:16:52,286 - __main__ - DEBUG - Extract Apple iPhone 6s: Misc
-2021-07-27 23:16:52,286 - __main__ - DEBUG - Extract Apple iPhone 6s: Tests
-2021-07-27 23:16:52,317 - __main__ - INFO - Extract Apple iPhone 6s Plus data from https://www.gsmarena.com/apple_iphone_6s_plus-7243.php
-2021-07-27 23:16:52,318 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Network
-2021-07-27 23:16:52,318 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Launch
-2021-07-27 23:16:52,318 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Body
-2021-07-27 23:16:52,319 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Display
-2021-07-27 23:16:52,319 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Platform
-2021-07-27 23:16:52,319 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Memory
-2021-07-27 23:16:52,319 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Main Camera
-2021-07-27 23:16:52,319 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Selfie camera
-2021-07-27 23:16:52,320 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Sound
-2021-07-27 23:16:52,320 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Comms
-2021-07-27 23:16:52,320 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Features
-2021-07-27 23:16:52,321 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Battery
-2021-07-27 23:16:52,321 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Misc
-2021-07-27 23:16:52,321 - __main__ - DEBUG - Extract Apple iPhone 6s Plus: Tests
-2021-07-27 23:16:52,351 - __main__ - INFO - Extract Apple iPhone 7 data from https://www.gsmarena.com/apple_iphone_7-8064.php
-2021-07-27 23:16:52,352 - __main__ - DEBUG - Extract Apple iPhone 7: Network
-2021-07-27 23:16:52,352 - __main__ - DEBUG - Extract Apple iPhone 7: Launch
-2021-07-27 23:16:52,352 - __main__ - DEBUG - Extract Apple iPhone 7: Body
-2021-07-27 23:16:52,352 - __main__ - DEBUG - Extract Apple iPhone 7: Display
-2021-07-27 23:16:52,353 - __main__ - DEBUG - Extract Apple iPhone 7: Platform
-2021-07-27 23:16:52,353 - __main__ - DEBUG - Extract Apple iPhone 7: Memory
-2021-07-27 23:16:52,353 - __main__ - DEBUG - Extract Apple iPhone 7: Main Camera
-2021-07-27 23:16:52,353 - __main__ - DEBUG - Extract Apple iPhone 7: Selfie camera
-2021-07-27 23:16:52,353 - __main__ - DEBUG - Extract Apple iPhone 7: Sound
-2021-07-27 23:16:52,354 - __main__ - DEBUG - Extract Apple iPhone 7: Comms
-2021-07-27 23:16:52,354 - __main__ - DEBUG - Extract Apple iPhone 7: Features
-2021-07-27 23:16:52,355 - __main__ - DEBUG - Extract Apple iPhone 7: Battery
-2021-07-27 23:16:52,355 - __main__ - DEBUG - Extract Apple iPhone 7: Misc
-2021-07-27 23:16:52,356 - __main__ - DEBUG - Extract Apple iPhone 7: Tests
-2021-07-27 23:16:52,384 - __main__ - INFO - Extract Apple iPhone 7 Plus data from https://www.gsmarena.com/apple_iphone_7_plus-8065.php
-2021-07-27 23:16:52,384 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Network
-2021-07-27 23:16:52,385 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Launch
-2021-07-27 23:16:52,385 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Body
-2021-07-27 23:16:52,385 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Display
-2021-07-27 23:16:52,385 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Platform
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Memory
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Main Camera
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Selfie camera
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Sound
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Comms
-2021-07-27 23:16:52,386 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Features
-2021-07-27 23:16:52,387 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Battery
-2021-07-27 23:16:52,387 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Misc
-2021-07-27 23:16:52,388 - __main__ - DEBUG - Extract Apple iPhone 7 Plus: Tests
-2021-07-27 23:16:52,416 - __main__ - INFO - Extract Apple iPhone SE data from https://www.gsmarena.com/apple_iphone_se-7969.php
-2021-07-27 23:16:52,417 - __main__ - DEBUG - Extract Apple iPhone SE: Network
-2021-07-27 23:16:52,417 - __main__ - DEBUG - Extract Apple iPhone SE: Launch
-2021-07-27 23:16:52,417 - __main__ - DEBUG - Extract Apple iPhone SE: Body
-2021-07-27 23:16:52,417 - __main__ - DEBUG - Extract Apple iPhone SE: Display
-2021-07-27 23:16:52,417 - __main__ - DEBUG - Extract Apple iPhone SE: Platform
-2021-07-27 23:16:52,418 - __main__ - DEBUG - Extract Apple iPhone SE: Memory
-2021-07-27 23:16:52,418 - __main__ - DEBUG - Extract Apple iPhone SE: Main Camera
-2021-07-27 23:16:52,418 - __main__ - DEBUG - Extract Apple iPhone SE: Selfie camera
-2021-07-27 23:16:52,418 - __main__ - DEBUG - Extract Apple iPhone SE: Sound
-2021-07-27 23:16:52,418 - __main__ - DEBUG - Extract Apple iPhone SE: Comms
-2021-07-27 23:16:52,419 - __main__ - DEBUG - Extract Apple iPhone SE: Features
-2021-07-27 23:16:52,419 - __main__ - DEBUG - Extract Apple iPhone SE: Battery
-2021-07-27 23:16:52,420 - __main__ - DEBUG - Extract Apple iPhone SE: Misc
-2021-07-27 23:16:52,420 - __main__ - DEBUG - Extract Apple iPhone SE: Tests
-2021-07-27 23:16:52,445 - __main__ - INFO - Extract Apple iPhone 8 Plus data from https://www.gsmarena.com/apple_iphone_8_plus-8131.php
-2021-07-27 23:16:52,445 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Network
-2021-07-27 23:16:52,445 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Launch
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Body
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Display
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Platform
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Memory
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Main Camera
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Selfie camera
-2021-07-27 23:16:52,450 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Sound
-2021-07-27 23:16:52,452 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Comms
-2021-07-27 23:16:52,452 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Features
-2021-07-27 23:16:52,452 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Battery
-2021-07-27 23:16:52,452 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Misc
-2021-07-27 23:16:52,452 - __main__ - DEBUG - Extract Apple iPhone 8 Plus: Tests
-2021-07-27 23:16:52,482 - __main__ - INFO - Extract Apple iPhone X data from https://www.gsmarena.com/apple_iphone_x-8858.php
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Network
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Launch
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Body
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Display
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Platform
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Memory
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Main Camera
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Selfie camera
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Sound
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Comms
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Features
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Battery
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Misc
-2021-07-27 23:16:52,482 - __main__ - DEBUG - Extract Apple iPhone X: Tests
-2021-07-27 23:16:52,513 - __main__ - INFO - Extract Apple iPhone 8 data from https://www.gsmarena.com/apple_iphone_8-8573.php
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Network
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Launch
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Body
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Display
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Platform
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Memory
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Main Camera
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Selfie camera
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Sound
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Comms
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Features
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Battery
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Misc
-2021-07-27 23:16:52,513 - __main__ - DEBUG - Extract Apple iPhone 8: Tests
-2021-07-27 23:16:52,544 - __main__ - INFO - Extract Apple iPhone XR data from https://www.gsmarena.com/apple_iphone_xr-9320.php
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Network
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Launch
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Body
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Display
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Platform
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Memory
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Main Camera
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Selfie camera
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Sound
-2021-07-27 23:16:52,544 - __main__ - DEBUG - Extract Apple iPhone XR: Comms
-2021-07-27 23:16:52,552 - __main__ - DEBUG - Extract Apple iPhone XR: Features
-2021-07-27 23:16:52,552 - __main__ - DEBUG - Extract Apple iPhone XR: Battery
-2021-07-27 23:16:52,552 - __main__ - DEBUG - Extract Apple iPhone XR: Misc
-2021-07-27 23:16:52,552 - __main__ - DEBUG - Extract Apple iPhone XR: Tests
-2021-07-27 23:16:52,574 - __main__ - INFO - Extract Apple iPhone XS Max data from https://www.gsmarena.com/apple_iphone_xs_max-9319.php
-2021-07-27 23:16:52,574 - __main__ - DEBUG - Extract Apple iPhone XS Max: Network
-2021-07-27 23:16:52,574 - __main__ - DEBUG - Extract Apple iPhone XS Max: Launch
-2021-07-27 23:16:52,574 - __main__ - DEBUG - Extract Apple iPhone XS Max: Body
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Display
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Platform
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Memory
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Main Camera
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Selfie camera
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Sound
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Comms
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Features
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Battery
-2021-07-27 23:16:52,582 - __main__ - DEBUG - Extract Apple iPhone XS Max: Misc
-2021-07-27 23:16:52,584 - __main__ - DEBUG - Extract Apple iPhone XS Max: Tests
-2021-07-27 23:16:52,605 - __main__ - INFO - Extract Apple iPhone XS data from https://www.gsmarena.com/apple_iphone_xs-9318.php
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Network
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Launch
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Body
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Display
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Platform
-2021-07-27 23:16:52,605 - __main__ - DEBUG - Extract Apple iPhone XS: Memory
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Main Camera
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Selfie camera
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Sound
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Comms
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Features
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Battery
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Misc
-2021-07-27 23:16:52,613 - __main__ - DEBUG - Extract Apple iPhone XS: Tests
-2021-07-27 23:16:52,656 - __main__ - INFO - Extract Apple iPhone 11 data from https://www.gsmarena.com/apple_iphone_11-9848.php
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Network
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Launch
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Body
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Display
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Platform
-2021-07-27 23:16:52,656 - __main__ - DEBUG - Extract Apple iPhone 11: Memory
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Main Camera
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Selfie camera
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Sound
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Comms
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Features
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Battery
-2021-07-27 23:16:52,664 - __main__ - DEBUG - Extract Apple iPhone 11: Misc
-2021-07-27 23:16:52,666 - __main__ - DEBUG - Extract Apple iPhone 11: Tests
-2021-07-27 23:16:52,697 - __main__ - INFO - Extract Apple iPhone 11 Pro Max data from https://www.gsmarena.com/apple_iphone_11_pro_max-9846.php
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Network
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Launch
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Body
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Display
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Platform
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Memory
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Main Camera
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Selfie camera
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Sound
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Comms
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Features
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Battery
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Misc
-2021-07-27 23:16:52,697 - __main__ - DEBUG - Extract Apple iPhone 11 Pro Max: Tests
-2021-07-27 23:16:52,746 - __main__ - INFO - Extract Apple iPhone 11 Pro data from https://www.gsmarena.com/apple_iphone_11_pro-9847.php
-2021-07-27 23:16:52,747 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Network
-2021-07-27 23:16:52,747 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Launch
-2021-07-27 23:16:52,747 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Body
-2021-07-27 23:16:52,747 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Display
-2021-07-27 23:16:52,748 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Platform
-2021-07-27 23:16:52,748 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Memory
-2021-07-27 23:16:52,748 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Main Camera
-2021-07-27 23:16:52,748 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Selfie camera
-2021-07-27 23:16:52,748 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Sound
-2021-07-27 23:16:52,749 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Comms
-2021-07-27 23:16:52,749 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Features
-2021-07-27 23:16:52,749 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Battery
-2021-07-27 23:16:52,749 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Misc
-2021-07-27 23:16:52,749 - __main__ - DEBUG - Extract Apple iPhone 11 Pro: Tests
-2021-07-27 23:16:52,788 - __main__ - INFO - Extract Apple iPhone 12 Pro Max data from https://www.gsmarena.com/apple_iphone_12_pro_max-10237.php
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Network
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Launch
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Body
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Display
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Platform
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Memory
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Main Camera
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Selfie camera
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Sound
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Comms
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Features
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Battery
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Misc
-2021-07-27 23:16:52,788 - __main__ - DEBUG - Extract Apple iPhone 12 Pro Max: Tests
-2021-07-27 23:16:52,826 - __main__ - INFO - Extract Apple iPhone 12 data from https://www.gsmarena.com/apple_iphone_12-10509.php
-2021-07-27 23:16:52,826 - __main__ - DEBUG - Extract Apple iPhone 12: Network
-2021-07-27 23:16:52,826 - __main__ - DEBUG - Extract Apple iPhone 12: Launch
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Body
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Display
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Platform
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Memory
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Main Camera
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Selfie camera
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Sound
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Comms
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Features
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Battery
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Misc
-2021-07-27 23:16:52,828 - __main__ - DEBUG - Extract Apple iPhone 12: Tests
-2021-07-27 23:16:52,859 - __main__ - INFO - Extract Apple iPhone 12 Pro data from https://www.gsmarena.com/apple_iphone_12_pro-10508.php
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Network
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Launch
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Body
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Display
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Platform
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Memory
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Main Camera
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Selfie camera
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Sound
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Comms
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Features
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Battery
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Misc
-2021-07-27 23:16:52,859 - __main__ - DEBUG - Extract Apple iPhone 12 Pro: Tests
-2021-07-27 23:16:52,889 - __main__ - INFO - Extract Apple iPhone 12 mini data from https://www.gsmarena.com/apple_iphone_12_mini-10510.php
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Network
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Launch
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Body
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Display
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Platform
-2021-07-27 23:16:52,889 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Memory
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Main Camera
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Selfie camera
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Sound
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Comms
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Features
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Battery
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Misc
-2021-07-27 23:16:52,897 - __main__ - DEBUG - Extract Apple iPhone 12 mini: Tests
-2021-07-27 23:16:52,928 - __main__ - INFO - Extract Apple iPhone SE (2020) data from https://www.gsmarena.com/apple_iphone_se_(2020)-10170.php
-2021-07-27 23:16:52,928 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Network
-2021-07-27 23:16:52,928 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Launch
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Body
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Display
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Platform
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Memory
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Main Camera
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Selfie camera
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Sound
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Comms
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Features
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Battery
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Misc
-2021-07-27 23:16:52,930 - __main__ - DEBUG - Extract Apple iPhone SE (2020): Tests
-2021-07-27 23:16:52,930 - __main__ - INFO - Done extracting 9 smartphone data.
-2021-07-27 23:16:52,930 - __main__ - INFO - Writing data into file
-2021-07-27 23:16:52,938 - __main__ - INFO - Done writing data into file
+2021-07-29 00:40:13,254 - SmartPhoneScraper - INFO - Start url request 1 / 3: https://www.gsmarena.com/results.php3?nYearMin=2013&nYearMax=2013&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:13,599 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:13,600 - SmartPhoneScraper - INFO - Start url request 2 / 3: https://www.gsmarena.com/results.php3?nYearMin=2010&nYearMax=2010&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:13,698 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:13,699 - SmartPhoneScraper - INFO - Start url request 3 / 3: https://www.gsmarena.com/results.php3?nYearMin=2011&nYearMax=2011&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:13,818 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,206 - SmartPhoneScraper - INFO - Start url request 1 / 3: https://www.gsmarena.com/results.php3?nYearMin=2015&nYearMax=2015&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:18,308 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,309 - SmartPhoneScraper - INFO - Start url request 2 / 3: https://www.gsmarena.com/results.php3?nYearMin=2020&nYearMax=2020&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:18,405 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,407 - SmartPhoneScraper - INFO - Start url request 3 / 3: https://www.gsmarena.com/results.php3?nYearMin=2021&nYearMax=2021&sMakers=9&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:18,508 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,509 - SmartPhoneScraper - INFO - Start getting all smartphone links from the search pages.
+2021-07-29 00:40:18,525 - SmartPhoneScraper - INFO - Start url request 1 / 3: https://www.gsmarena.com/samsung_i5700_galaxy_spica-2965.php
+2021-07-29 00:40:18,632 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,633 - SmartPhoneScraper - INFO - Start url request 2 / 3: https://www.gsmarena.com/samsung_b7300_omnialite-2837.php
+2021-07-29 00:40:18,740 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:18,741 - SmartPhoneScraper - INFO - Start url request 3 / 3: https://www.gsmarena.com/samsung_m8910_pixon12-2813.php
+2021-07-29 00:40:19,123 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:29,953 - SmartPhoneScraper - INFO - Start url request 1 / 33: https://www.gsmarena.com/samsung_s5230_star-2739.php
+2021-07-29 00:40:30,046 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,046 - SmartPhoneScraper - INFO - Start url request 2 / 33: https://www.gsmarena.com/samsung_s3650_corby-2908.php
+2021-07-29 00:40:30,147 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,147 - SmartPhoneScraper - INFO - Start url request 3 / 33: https://www.gsmarena.com/samsung_i8910_omnia_hd-2691.php
+2021-07-29 00:40:30,248 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,248 - SmartPhoneScraper - INFO - Start url request 4 / 33: https://www.gsmarena.com/samsung_i7500_galaxy-2791.php
+2021-07-29 00:40:30,347 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,348 - SmartPhoneScraper - INFO - Start url request 5 / 33: https://www.gsmarena.com/samsung_s8000_jet-2835.php
+2021-07-29 00:40:30,718 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,719 - SmartPhoneScraper - INFO - Start url request 6 / 33: https://www.gsmarena.com/samsung_i5700_galaxy_spica-2965.php
+2021-07-29 00:40:30,822 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,822 - SmartPhoneScraper - INFO - Start url request 7 / 33: https://www.gsmarena.com/samsung_i8000_omnia_ii-2836.php
+2021-07-29 00:40:30,916 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:30,917 - SmartPhoneScraper - INFO - Start url request 8 / 33: https://www.gsmarena.com/samsung_m8910_pixon12-2813.php
+2021-07-29 00:40:31,018 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,018 - SmartPhoneScraper - INFO - Start url request 9 / 33: https://www.gsmarena.com/samsung_s3310-2812.php
+2021-07-29 00:40:31,126 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,127 - SmartPhoneScraper - INFO - Start url request 10 / 33: https://www.gsmarena.com/samsung_w880_amoled_12m-2948.php
+2021-07-29 00:40:31,228 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,229 - SmartPhoneScraper - INFO - Start url request 11 / 33: https://www.gsmarena.com/samsung_e1080t-2941.php
+2021-07-29 00:40:31,346 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,346 - SmartPhoneScraper - INFO - Start url request 12 / 33: https://www.gsmarena.com/samsung_b2100_xplorer-2747.php
+2021-07-29 00:40:31,448 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,449 - SmartPhoneScraper - INFO - Start url request 13 / 33: https://www.gsmarena.com/samsung_s5230w_star_wifi-2935.php
+2021-07-29 00:40:31,541 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,541 - SmartPhoneScraper - INFO - Start url request 14 / 33: https://www.gsmarena.com/samsung_c5212-2709.php
+2021-07-29 00:40:31,913 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:31,914 - SmartPhoneScraper - INFO - Start url request 15 / 33: https://www.gsmarena.com/samsung_s5560_marvel-2989.php
+2021-07-29 00:40:32,017 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,017 - SmartPhoneScraper - INFO - Start url request 16 / 33: https://www.gsmarena.com/samsung_e2120-2900.php
+2021-07-29 00:40:32,117 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,118 - SmartPhoneScraper - INFO - Start url request 17 / 33: https://www.gsmarena.com/samsung_s5600_preston-2738.php
+2021-07-29 00:40:32,313 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,313 - SmartPhoneScraper - INFO - Start url request 18 / 33: https://www.gsmarena.com/samsung_s5233t-3235.php
+2021-07-29 00:40:32,406 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,407 - SmartPhoneScraper - INFO - Start url request 19 / 33: https://www.gsmarena.com/samsung_c3010-2707.php
+2021-07-29 00:40:32,507 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,508 - SmartPhoneScraper - INFO - Start url request 20 / 33: https://www.gsmarena.com/samsung_t929_memoir-2663.php
+2021-07-29 00:40:32,616 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,616 - SmartPhoneScraper - INFO - Start url request 21 / 33: https://www.gsmarena.com/samsung_e1070-2672.php
+2021-07-29 00:40:32,724 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:32,724 - SmartPhoneScraper - INFO - Start url request 22 / 33: https://www.gsmarena.com/samsung_m7600_beat_dj-2684.php
+2021-07-29 00:40:33,112 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,112 - SmartPhoneScraper - INFO - Start url request 23 / 33: https://www.gsmarena.com/samsung_s7550_blue_earth-2931.php
+2021-07-29 00:40:33,208 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,208 - SmartPhoneScraper - INFO - Start url request 24 / 33: https://www.gsmarena.com/samsung_vodafone_360_h1-2954.php
+2021-07-29 00:40:33,307 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,308 - SmartPhoneScraper - INFO - Start url request 25 / 33: https://www.gsmarena.com/samsung_f480i-2987.php
+2021-07-29 00:40:33,408 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,409 - SmartPhoneScraper - INFO - Start url request 26 / 33: https://www.gsmarena.com/samsung_c3510_genoa-3068.php
+2021-07-29 00:40:33,510 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,510 - SmartPhoneScraper - INFO - Start url request 27 / 33: https://www.gsmarena.com/samsung_b7300_omnialite-2837.php
+2021-07-29 00:40:33,608 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,608 - SmartPhoneScraper - INFO - Start url request 28 / 33: https://www.gsmarena.com/samsung_s5600v_blade-2860.php
+2021-07-29 00:40:33,715 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,715 - SmartPhoneScraper - INFO - Start url request 29 / 33: https://www.gsmarena.com/samsung_e1100-2673.php
+2021-07-29 00:40:33,825 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,826 - SmartPhoneScraper - INFO - Start url request 30 / 33: https://www.gsmarena.com/samsung_i7410-2698.php
+2021-07-29 00:40:33,928 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:33,929 - SmartPhoneScraper - INFO - Start url request 31 / 33: https://www.gsmarena.com/samsung_e1120-2711.php
+2021-07-29 00:40:34,308 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:34,308 - SmartPhoneScraper - INFO - Start url request 32 / 33: https://www.gsmarena.com/samsung_e1107_crest_solar-2829.php
+2021-07-29 00:40:34,566 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:34,567 - SmartPhoneScraper - INFO - Start url request 33 / 33: https://www.gsmarena.com/samsung_b3210_corbytxt-2943.php
+2021-07-29 00:40:34,675 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:34,703 - SmartPhoneScraper - INFO - Writing data into file
+2021-07-29 00:40:34,706 - SmartPhoneScraper - INFO - Done writing data into file
+2021-07-29 00:40:34,711 - SmartPhoneScraper - INFO - Start scraping all 48 smartphone data from www.gsmarena.com
+2021-07-29 00:40:34,712 - SmartPhoneScraper - INFO - Prepared 13 search links
+2021-07-29 00:40:34,712 - SmartPhoneScraper - INFO - Start url request 1 / 13: https://www.gsmarena.com/results.php3?nYearMin=2009&nYearMax=2009&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:34,828 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:34,828 - SmartPhoneScraper - INFO - Start url request 2 / 13: https://www.gsmarena.com/results.php3?nYearMin=2010&nYearMax=2010&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:34,928 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:34,929 - SmartPhoneScraper - INFO - Start url request 3 / 13: https://www.gsmarena.com/results.php3?nYearMin=2011&nYearMax=2011&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,032 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,033 - SmartPhoneScraper - INFO - Start url request 4 / 13: https://www.gsmarena.com/results.php3?nYearMin=2012&nYearMax=2012&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,128 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,129 - SmartPhoneScraper - INFO - Start url request 5 / 13: https://www.gsmarena.com/results.php3?nYearMin=2013&nYearMax=2013&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,508 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,509 - SmartPhoneScraper - INFO - Start url request 6 / 13: https://www.gsmarena.com/results.php3?nYearMin=2014&nYearMax=2014&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,623 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,623 - SmartPhoneScraper - INFO - Start url request 7 / 13: https://www.gsmarena.com/results.php3?nYearMin=2015&nYearMax=2015&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,716 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,717 - SmartPhoneScraper - INFO - Start url request 8 / 13: https://www.gsmarena.com/results.php3?nYearMin=2016&nYearMax=2016&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,817 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,817 - SmartPhoneScraper - INFO - Start url request 9 / 13: https://www.gsmarena.com/results.php3?nYearMin=2017&nYearMax=2017&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:35,917 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:35,918 - SmartPhoneScraper - INFO - Start url request 10 / 13: https://www.gsmarena.com/results.php3?nYearMin=2018&nYearMax=2018&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:36,017 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:36,017 - SmartPhoneScraper - INFO - Start url request 11 / 13: https://www.gsmarena.com/results.php3?nYearMin=2019&nYearMax=2019&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:36,117 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:36,117 - SmartPhoneScraper - INFO - Start url request 12 / 13: https://www.gsmarena.com/results.php3?nYearMin=2020&nYearMax=2020&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:36,308 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:36,309 - SmartPhoneScraper - INFO - Start url request 13 / 13: https://www.gsmarena.com/results.php3?nYearMin=2021&nYearMax=2021&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-07-29 00:40:36,408 - SmartPhoneScraper - WARNING - Url request failed (ResponseError) skip
+2021-07-29 00:40:36,409 - SmartPhoneScraper - INFO - Got 13 search pages
+2021-07-29 00:40:36,411 - SmartPhoneScraper - CRITICAL - Didn't get any data. Exit the program...
