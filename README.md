@@ -63,6 +63,9 @@ The result will be save at:
 - apple_smartphones_data.json
 - samsung_smartphone_data.json
 
+## Convention
+The code is PEP8 Compliant
+
 ## Contributors
 Samuel Abettan,  
 Yair Ben-Shaul
