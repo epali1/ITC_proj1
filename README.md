@@ -1,17 +1,17 @@
 # ITC Data-Mining Project.
 
 ## About
-smartphone-scraper is part 1 of ITC data-mining project.
+Smartphone-scraper is part 1 of ITC data-mining project.
 
 This program scrape "GSMarena.com" website for smartphone data.
-Scarping is limited to:
+Scraping is limited to:
 * Apple and Samsung smartphone only.
 * from 2009 only.
 * only Bar (type) smartphones.
 
 Output results save into a json files.
 
-## requirements
+## Requirements
 
 python >= 3.9.5  
 requests >=   
@@ -19,13 +19,13 @@ bs4 >=
 
 ## Instalation
 
-1. clone the repository to your computer.
+1. Clone the repository to your computer.
 
 ```bash
 git clone  https://github.com/epali1/ITC_proj1.git
 ```
 
-2. create a python new envirement and install the requirements  
+2. Create a python new envirement and install the requirements  
    1. [using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
       note: "my_env" can be the name of your choosing.
@@ -53,9 +53,9 @@ git clone  https://github.com/epali1/ITC_proj1.git
       conda install < requirements.txt
       ```
       
-## Useage
+## Usage
 
-just run phone-scraper.py 
+Just run phone-scraper.py 
 ```bash
 $ phone-scraper.py
 ```
