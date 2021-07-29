@@ -17,7 +17,7 @@ python >= 3.9.5
 requests >=   
 bs4 >=  
 
-## Instalation
+## Installation
 
 1. Clone the repository to your computer.
 
