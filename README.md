@@ -1,94 +1,67 @@
-# ITC Data-Mining Project
+# ITC Data-Mining Project.
 
 ## About
-Smartphone-scraper is part 1 of ITC data-mining project
+Smartphone-scraper is part 1 of ITC data-mining project.
 
-This program scrape "GSMarena.com" website for smartphone data
+This program scrape "GSMarena.com" website for smartphone data.
 Scraping is limited to:
-* Apple and Samsung smartphone only
-* from 2009 only
-* only Bar (type) smartphones
+* Apple and Samsung smartphone only.
+* from 2009 only.
+* only Bar (type) smartphones.
 
-Output results save into a json files
+Output results save into a json files.
 
 ## Requirements
 
-python==3.9.5  
-requests==2.25.1  
-beautifulsoup4==4.9.3  
-bs4==4.9.3  
-pytest==6.2.4
+python >= 3.9.5  
+requests >=   
+bs4 >=  
 
 ## Installation
 
-1. Clone the repository to your computer
+1. Clone the repository to your computer.
 
 ```bash
-$ git clone  https://github.com/epali1/ITC_proj1.git
+git clone  https://github.com/epali1/ITC_proj1.git
 ```
 
 2. Create a python new envirement and install the requirements  
    1. [using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
-      create new envirement with python 3.9.5   
-      note: "my_env" can be the name of your choosing   
-      (windows)
+      note: "my_env" can be the name of your choosing.
+
        ```bash
-      $ py -m venv my_env
+      py -m venv my_env
+      .\my_env\Scripts\activate
       ```
-      (linux)
-       ```bash
-      $ python3 -m venv my_env
-      ```
-      
-      activate the envirement  
-      (windows)
+
       ```bash
-      $ .\my_env\Scripts\activate
-      ```
-      (linux)
-      ```bash
-      $ source my_env/bin/activate
-      ```
-            
-      install the requirements
-      
-      ```bash
-      $ pip install -r requirements.txt 
+      pip install -r requirements.txt 
       ```
 
    2. [using conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
-      create new envirement with python 3.9.5
-      
       ```bash
-      $ conda create --name my_env python=3.9.5
+      conda create --name my_env python=>3.9.5
       ```
-      activate the envirement 
 
       ```bash
-      $ conda activate my_env 
+      conda activate my_new_env 
       ```
-      install the requirements
 
       ```bash
-      $ conda install --file requirements.txt
+      conda install < requirements.txt
       ```
       
 ## Usage
 
-run phone-scraper.py 
+Just run phone-scraper.py 
 ```bash
 $ phone-scraper.py
 ```
 The result will be save at: 
 - apple_smartphones_data.json
 - samsung_smartphone_data.json
-
-for testing, run pytest in the project directory
-```bash
-$ pytest -v 
-```
 
 ## Convention
 The code is PEP8 Compliant
