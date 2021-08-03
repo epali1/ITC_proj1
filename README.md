@@ -27,10 +27,10 @@ pytest==6.2.4
 $ git clone  https://github.com/epali1/ITC_proj1.git
 ```
 
-2. Create a python new envirement and install the requirements  
+2. Create a python new environment and install the requirements  
    1. [using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)
 
-      create new envirement with python 3.9.5   
+      create new environment with python 3.9.5   
       note: "my_env" can be the name of your choosing   
       (windows)
        ```bash
@@ -41,7 +41,7 @@ $ git clone  https://github.com/epali1/ITC_proj1.git
       $ python3 -m venv my_env
       ```
       
-      activate the envirement  
+      activate the environment  
       (windows)
       ```bash
       $ .\my_env\Scripts\activate
@@ -59,12 +59,12 @@ $ git clone  https://github.com/epali1/ITC_proj1.git
 
    2. [using conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 
-      create new envirement with python 3.9.5
+      create new environment with python 3.9.5
       
       ```bash
       $ conda create --name my_env python=3.9.5
       ```
-      activate the envirement 
+      activate the environment 
 
       ```bash
       $ conda activate my_env 
@@ -81,7 +81,7 @@ run phone-scraper.py
 ```bash
 $ phone-scraper.py
 ```
-The result will be save at: 
+The result will be stored at: 
 - apple_smartphones_data.json
 - samsung_smartphone_data.json
 

@@ -4,15 +4,13 @@ from tests_automation.test_data import *
 from phone_scraper import *
 from random import choices
 
-#set_logger()
 
-
-def get_req(url, timeout=REQUEST_DELAY):
+def get_req(url, delay=REQUEST_DELAY):
     """
     helper function to test site responses
     """
     response = requests.head(url, headers=REQUEST_HEADER)
-    sleep(timeout)
+    sleep(delay)
     return response
 
 
@@ -35,7 +33,7 @@ def test_get_search_pages(setup):
     """
     test three web_search random links
     """
-    responses = get_pages(choices(test_website_urls, k=3), timeout=REQUEST_DELAY)
+    responses = get_pages(choices(test_website_urls, k=3), delay=REQUEST_DELAY)
     assert len(responses) != 0
     assert all([response.ok for response in responses])
 
@@ -44,7 +42,7 @@ def test_search_pages_responses(setup):
     """
     test the responses of all web_search links.
     """
-    responses = [get_req(url, timeout=REQUEST_DELAY) for url in test_website_urls]
+    responses = [get_req(url, delay=REQUEST_DELAY) for url in test_website_urls]
     assert all([response.ok for response in responses])
 
 
@@ -52,7 +50,7 @@ def test_get_phones_list(setup):
     """
     test get_phones_list function on three random links
     """
-    responses = get_pages(choices(test_website_urls, k=3), timeout=REQUEST_DELAY)
+    responses = get_pages(choices(test_website_urls, k=3), delay=REQUEST_DELAY)
     phones_list = get_phone_list(responses)
     assert len(phones_list) != 0
 
@@ -63,7 +61,7 @@ def test_get_phones_list_accuracy(setup):
     """
     test_year = 2015
     url = MAIN_SITE + RESULTS_PAGE.format(test_year, test_year, BRANDS[brand_samsung], AVAILABLE, FORM_FACTOR)
-    response = get_pages([url], timeout=REQUEST_DELAY)
+    response = get_pages([url], delay=REQUEST_DELAY)
     phones_list = get_phone_list(response)
     assert len(phones_list) == number_of_apple_smartphones_2015_links
 
@@ -81,7 +79,7 @@ def test_smartphone_pages_responses(setup):
     """
     test the responses of all smartphone links.
     """
-    responses = [get_req(url, timeout=REQUEST_DELAY) for url in test_phones_links]
+    responses = [get_req(url, delay=REQUEST_DELAY) for url in test_phones_links]
     assert len(responses) != 0
     assert all([response.ok for response in responses])
 
