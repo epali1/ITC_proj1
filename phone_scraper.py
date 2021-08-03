@@ -15,35 +15,27 @@ from gsmarena_conf import *
 from time import sleep
 import logging
 
-JSON_INDENT = 4
+
 GSMARENA_ADAPTER = HTTPAdapter(max_retries=GSMARENA_MAX_RETRIES)
 GSMARENA_ADAPTER.max_retries.respect_retry_after_header = False  # abort site retry command
 
-logger = logging.getLogger("SmartPhoneScraper")
+logger = logging.getLogger(LOG_NAME)
+logger.setLevel(LOG_LVL['DEBUG'])
+# Create handlers
+c_handler = logging.StreamHandler()
+f_handler = logging.FileHandler(LOG_FILE, 'w')
+c_handler.setLevel(LOG_LVL['INFO'])
+f_handler.setLevel(LOG_LVL['DEBUG'])
 
+# Create formatters and add it to handlers
+c_format = logging.Formatter(LOG_CONSOLE_FORMAT)
+f_format = logging.Formatter(LOG_FILE_FORMAT)
+c_handler.setFormatter(c_format)
+f_handler.setFormatter(f_format)
 
-def set_logger():
-    """
-    set a global object to act as logger.
-    """
-    # Create a custom logger
-    global logger
-    logger.setLevel(logging.DEBUG)
-    # Create handlers
-    c_handler = logging.StreamHandler()
-    f_handler = logging.FileHandler('scraper.log', 'w')
-    c_handler.setLevel(20)
-    f_handler.setLevel(10)
-
-    # Create formatters and add it to handlers
-    c_format = logging.Formatter('%(name)s - %(levelname)s - %(message)s')
-    f_format = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-    c_handler.setFormatter(c_format)
-    f_handler.setFormatter(f_format)
-
-    # Add handlers to the logger
-    logger.addHandler(c_handler)
-    logger.addHandler(f_handler)
+# Add handlers to the logger
+logger.addHandler(c_handler)
+logger.addHandler(f_handler)
 
 
 def save_data(filename, data):
@@ -51,17 +43,15 @@ def save_data(filename, data):
     save output data into json file format
     """
     logger.info('Writing data into file')
-    # add try except if file is open
     with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=JSON_INDENT)
 
     logger.info('Done writing data into file')
 
 
-def get_pages(urls: list[str], timeout=REQUEST_DELAY) -> list[requests.models.Response]:
+def get_pages(urls: list[str], delay=REQUEST_DELAY) -> list[requests.models.Response]:
     """
-    :inputs: list of url addresses, number of threads
-    :return: list of responses
+    return a list of responses from urls addresses
     """
     tmp_session = requests.Session()
     tmp_session.mount(prefix=MAIN_SITE, adapter=GSMARENA_ADAPTER)
@@ -81,8 +71,8 @@ def get_pages(urls: list[str], timeout=REQUEST_DELAY) -> list[requests.models.Re
 
             logger.debug(f'Url request succeeded.')
 
-        logger.debug(f'Site request delay: {timeout}')
-        sleep(timeout)
+        logger.debug(f'Site request delay: {delay}')
+        sleep(delay)
 
     return responses
 
@@ -118,7 +108,6 @@ def get_phone_data(page: requests.models.Response) -> dict:
     """
     return all phone properties from website as a dict.
     """
-
     phone_data = dict()
     soup = BeautifulSoup(page.content, features='html.parser')
     phone_name = soup.find('h1', class_="specs-phone-name-title").text
@@ -152,7 +141,7 @@ def smartphones_scraper(brand: str) -> list[dict]:
     """
     scrape all iphone smartphone data from GSMarena and save data as json.
     """
-    logger.info(f"Start scraping all {BRANDS[brand]} smartphone data from www.gsmarena.com")
+    logger.info(f"Start scraping all {brand} smartphone data from www.gsmarena.com")
     website_search = [MAIN_SITE + RESULTS_PAGE.format(year, year, BRANDS[brand], AVAILABLE, FORM_FACTOR)
                       for year in YEAR_RANGE]
     logger.info(f"Prepared {len(website_search)} search links")
@@ -174,17 +163,29 @@ def smartphones_scraper(brand: str) -> list[dict]:
     elif len(smartphones_pages) < len(smartphones_links):
         logger.warning(f'Not all smartphones links were retrieved {len(smartphones_pages)}/{len(smartphones_links)}')
     smartphones_data = [get_phone_data(page) for page in smartphones_pages]
-    logger.info(f"Done extracting {BRANDS['Samsung']} smartphone data.")
+    logger.info(f"Done extracting {brand} smartphone data.")
 
     return smartphones_data
 
 
 def main():
-    set_logger()
-    phones_data = smartphones_scraper(brand='Apple')
-    save_data('apple_smartphones_data.json', phones_data)
-    # phones_data = smartphones_scraper(brand='Samsung')
-    # save_data('samsung_smartphones_data.json', phones_data)
+    print("This program scrape http://www.gsmarena.com for smartphones properties")
+    answer = input("Please, choose the Brand:\n1.Apple\n2.Samsung\n3.Apple and Samsung\n>>> ")
+    while not (answer.strip() in ['1', '2', '3']):
+        answer = input("Please, choose the Brand:\n1.Apple\n2.Samsung\n3.Apple and Samsung\n>>> ")
+
+    answer = int(answer.strip())
+    if answer == 1:
+        phones_data = smartphones_scraper(brand='Apple')
+        save_data('apple_smartphones_data.json', phones_data)
+    elif answer == 2:
+        phones_data = smartphones_scraper(brand='Samsung')
+        save_data('samsung_smartphones_data.json', phones_data)
+    elif answer == 3:
+        phones_data = smartphones_scraper(brand='Apple')
+        save_data('apple_smartphones_data.json', phones_data)
+        phones_data = smartphones_scraper(brand='Samsung')
+        save_data('samsung_smartphones_data.json', phones_data)
 
 
 if __name__ == "__main__":

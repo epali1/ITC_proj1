@@ -1,4 +1,9 @@
+"""
+smartphone scraper test data file
+"""
 number_of_apple_smartphones_2015_links = 41
+brand_samsung = 'Samsung'
+brand_apple = 'Apple'
 
 test_website_urls = [
     'https://www.gsmarena.com/results.php3?nYearMin=2009&nYearMax=2009&sMakers=9&sAvailabilities=1,3&sFormFactors=1',
@@ -74,8 +79,3 @@ test_phones_data = {'Samsung E1107 Crest Solar':
         'Misc': {'Colors': 'Black', 'SAR EU': '0.56 W/kg (head)     ', 'Price': 'About 50 EUR'}
     }
 }
-
-
-brand_samsung = 'Samsung'
-
-brand_apple = 'Apple'
