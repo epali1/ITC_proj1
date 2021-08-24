@@ -1,0 +1,42 @@
+
+
+##ERD Explanation
+----(In this project product is smartphone which have different categories for which i used two following entities)The ERD diagram ERD have following entities with there attributes:
+1.Product(Product_id(primary key,auto increment),Product_Name,Other_data) also have (primary keys of remainig entities as a forigen keys in it)
+2.Product Categories(idProduct_Categories(primary key,auto increment))
+3.Categories(idCategories(primary key,auto increment),Category_Name)-------(categories like Samsung Galaxy M02, Samsung Galaxy F52 5G)
+------Remaning Entities are the phone specifications which all have primary keys which are auto increment, not null and unique. that shows data would not be duplicated in any case. 
+Phone specification entites are following which have there own attributes.
+4.Network have columns(N_id(Primary key),technology,2G_band,3G_band,4G_band,Speed,GPRS,EDGE)
+5.Launch have columns(L_id(Primary key),Announced,status)
+6.Body(b_id(primary key,auto increment),Dimensions,Weightt,Build,SIM)
+7.Dispaly(D_id(primary key,auto increment),Type,Size,Resolution)
+8.Platform(P_id(primary key,auto increment),OS,Chipset,CPU,GPU)
+9.Memory(M_id(primary key,auto increment),Card_slot,Internal,Other)
+10.Main Camera(MC_id(primary key,auto increment),Quad,Features,Video)
+11.Selfie Camera(SC_id(primary key,auto increment),Single,,Features,Video)
+12.Sound(S_id(primary key,auto increment),Loudspeaker,3.5mm_jack)
+13.Comms(C_id(primary key,auto increment),WLAN,Bluetooth,GPS,NFC,Radio,USB)
+14.Features(f_id(primary key,auto increment),Sensors,Other)
+15.Battary(B_id(primary key,auto increment),Type,Charging)
+16.Misc(MI_id(primary key,auto increment),Colors,Model,SAR,SAR_EU,Price)
+ 
+##DB Documentation
+DB have following tables and each table columns are also mentioned.
+1.Product(Product_id(primary key,auto increment),Product_Name,Other_data) also have (primary keys of remainig entities as a forigen keys in it)
+2.Product Categories(idProduct_Categories(primary key,auto increment))
+3.Categories(idCategories(primary key,auto increment),Category_Name)
+4.Network have columns(N_id(Primary key),technology,2G_band,3G_band,4G_band,Speed,GPRS,EDGE)
+5.Launch have columns(L_id(Primary key),Announced,status)
+6.Body(b_id(primary key,auto increment),Dimensions,Weightt,Build,SIM)
+7.Dispaly(D_id(primary key,auto increment),Type,Size,Resolution)
+8.Platform(P_id(primary key,auto increment),OS,Chipset,CPU,GPU)
+9.Memory(M_id(primary key,auto increment),Card_slot,Internal,Other)
+10.Main Camera(MC_id(primary key,auto increment),Quad,Features,Video)
+11.Selfie Camera(SC_id(primary key,auto increment),Single,,Features,Video)
+12.Sound(S_id(primary key,auto increment),Loudspeaker,3.5mm_jack)
+13.Comms(C_id(primary key,auto increment),WLAN,Bluetooth,GPS,NFC,Radio,USB)
+14.Features(f_id(primary key,auto increment),Sensors,Other)
+15.Battary(B_id(primary key,auto increment),Type,Charging)
+16.Misc(MI_id(primary key,auto increment),Colors,Model,SAR,SAR_EU,Price)
+ 
