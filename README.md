@@ -77,13 +77,44 @@ $ git clone  https://github.com/epali1/ITC_proj1.git
       
 ## Usage
 
-run phone-scraper.py 
+use phone-scraper_cli.py   
+examples:    
+
+1. Scrape 'Apple' smartphones data from 2011 to 2015. The data will save at default file 'Apple_smartphones_data.json'.
 ```bash
-$ phone-scraper.py
+$ phone_scraper_cli.py  --brand=Apple --year_min=2011 --year_max=2015
 ```
-The result will be stored at: 
-- apple_smartphones_data.json
-- samsung_smartphone_data.json
+
+2. Scrape 'Samsung' smartphones data from 2012 to current year. The data will save at default file 'Samsung_phone_data.json'.
+```bash
+$ phone_scraper_cli.py  --brand=Samsung --year_min=2012 --outfile=phone_data.json
+```
+        
+3. Scrape 'Samsung' and 'Apple' smartphones data from 2009 to 2012. The data will save at default file 'Apple_phone_data.json' and 'Samsung_phone_data.json'.
+```bash
+$ phone_scraper_cli.py  --year_max=2012 --outfile=phone_data.json
+```
+
+4. Log options. 
+```bash
+$ phone_scraper_cli.py  --log_lvl=DEBUG --logoff --logfile=scarper.log 
+```
+
+## cli option
+
+|  option  |         description        |               values               |
+|:--------:|:--------------------------:|:----------------------------------:|
+|   brand  |  choose smartphones brand  | ['Apple', Samsung', 'All', 'None'] |
+| year_min |  year start scraping from  |            2009-currnet            |
+| year_max |    year end scraping to    |          year_min-current          |
+|  outfile |    suffix to output file   |    'brand'_smartphones_data.json   |
+|  log_lvl |      global log level      |    ['WARNING', 'INFO', 'DEBUG']    |
+|  logfile |          log file          |  empty string to disable log file  |
+|  logoff  | disable log console output |               boolean              |
+|  option  |         description        |               values               |
+
+
+## testing
 
 for testing, run pytest in the project directory
 ```bash

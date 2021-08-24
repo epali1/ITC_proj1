@@ -15,27 +15,37 @@ from gsmarena_conf import *
 from time import sleep
 import logging
 
-
 GSMARENA_ADAPTER = HTTPAdapter(max_retries=GSMARENA_MAX_RETRIES)
 GSMARENA_ADAPTER.max_retries.respect_retry_after_header = False  # abort site retry command
 
 logger = logging.getLogger(LOG_NAME)
-logger.setLevel(LOG_LVL['DEBUG'])
-# Create handlers
-c_handler = logging.StreamHandler()
-f_handler = logging.FileHandler(LOG_FILE, 'w')
-c_handler.setLevel(LOG_LVL['INFO'])
-f_handler.setLevel(LOG_LVL['DEBUG'])
 
-# Create formatters and add it to handlers
-c_format = logging.Formatter(LOG_CONSOLE_FORMAT)
-f_format = logging.Formatter(LOG_FILE_FORMAT)
-c_handler.setFormatter(c_format)
-f_handler.setFormatter(f_format)
 
-# Add handlers to the logger
-logger.addHandler(c_handler)
-logger.addHandler(f_handler)
+def activate_log(log_lvl='DEBUG', logfile=LOG_FILE, logoff=False):
+    """
+    control the logger properties.
+    """
+    logger.setLevel(LOG_LVL[log_lvl])
+
+    if logfile:
+        # Create handlers
+        f_handler = logging.FileHandler(logfile, 'w')
+        f_handler.setLevel(LOG_LVL['DEBUG'])
+        # Create formatters and add it to handlers
+        f_format = logging.Formatter(LOG_FILE_FORMAT)
+        f_handler.setFormatter(f_format)
+        # Add handlers to the logger
+        logger.addHandler(f_handler)
+
+    if not logoff:
+        # Create handlers
+        c_handler = logging.StreamHandler()
+        c_handler.setLevel(LOG_LVL['INFO'])
+        # Create formatters and add it to handlers
+        c_format = logging.Formatter(LOG_CONSOLE_FORMAT)
+        c_handler.setFormatter(c_format)
+        # Add handlers to the logger
+        logger.addHandler(c_handler)
 
 
 def save_data(filename, data):
@@ -137,13 +147,15 @@ def get_phone_data(page: requests.models.Response) -> dict:
     return phone_data
 
 
-def smartphones_scraper(brand: str) -> list[dict]:
+def smartphones_scraper(brand: str, year_min=YEAR_MIN, year_max=YEAR_MAX) -> list[dict]:
     """
     scrape all iphone smartphone data from GSMarena and save data as json.
     """
+    # Add one to include current year.
+    year_range = range(year_min, year_max + 1)
     logger.info(f"Start scraping all {brand} smartphone data from www.gsmarena.com")
     website_search = [MAIN_SITE + RESULTS_PAGE.format(year, year, BRANDS[brand], AVAILABLE, FORM_FACTOR)
-                      for year in YEAR_RANGE]
+                      for year in year_range]
     logger.info(f"Prepared {len(website_search)} search links")
     smartphones_search_pages = get_pages(website_search)
     logger.info(f"Got {len(website_search)} search pages")
@@ -170,6 +182,7 @@ def smartphones_scraper(brand: str) -> list[dict]:
 
 def main():
     print("This program scrape http://www.gsmarena.com for smartphones properties")
+    activate_log()
     answer = input("Please, choose the Brand:\n1.Apple\n2.Samsung\n3.Apple and Samsung\n>>> ")
     while not (answer.strip() in ['1', '2', '3']):
         answer = input("Please, choose the Brand:\n1.Apple\n2.Samsung\n3.Apple and Samsung\n>>> ")
