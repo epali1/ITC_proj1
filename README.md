@@ -100,6 +100,21 @@ $ phone_scraper_cli.py  --year_max=2012 --outfile=phone_data.json
 $ phone_scraper_cli.py  --log_lvl=DEBUG --logoff --logfile=scarper.log 
 ```
 
+5. DB options. remove existing database, scrape and save the data in a new database file.
+```bash
+$ phone_scraper_cli.py  --year_max=2012 --DB=new  
+```
+
+6. DB options. remove existing database, do nothing else.
+```bash
+$ phone_scraper_cli.py  --DB=del  
+```
+
+7. DB options. update database (default). Ignore existing data.
+```bash
+$ phone_scraper_cli.py  --year_min=2012 --DB=update  
+```
+
 ## cli option
 
 |  option  |         description        |               values               |
@@ -111,7 +126,7 @@ $ phone_scraper_cli.py  --log_lvl=DEBUG --logoff --logfile=scarper.log
 |  log_lvl |      global log level      |    ['WARNING', 'INFO', 'DEBUG']    |
 |  logfile |          log file          |  empty string to disable log file  |
 |  logoff  | disable log console output |               boolean              |
-|  option  |         description        |               values               |
+|  DB      |          DB option         |     ['new', 'update', 'delete']    |
 
 
 ## testing
