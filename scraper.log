@@ -1,289 +1,32 @@
-2021-11-03 20:05:14,799 - SmartPhoneScraper - INFO - Start scraping all Samsung smartphone data from www.gsmarena.com
-2021-11-03 20:05:14,800 - SmartPhoneScraper - INFO - Prepared 2 search links
-2021-11-03 20:05:14,801 - SmartPhoneScraper - INFO - Start url request 1 / 2: https://www.gsmarena.com/results.php3?nYearMin=2011&nYearMax=2011&sMakers=9&sAvailabilities=1,3&sFormFactors=1
-2021-11-03 20:05:18,283 - SmartPhoneScraper - INFO - Start url request 2 / 2: https://www.gsmarena.com/results.php3?nYearMin=2012&nYearMax=2012&sMakers=9&sAvailabilities=1,3&sFormFactors=1
-2021-11-03 20:05:21,466 - SmartPhoneScraper - INFO - Got 2 search pages
-2021-11-03 20:05:21,466 - SmartPhoneScraper - INFO - Start getting all smartphone links from the search pages.
-2021-11-03 20:05:21,535 - SmartPhoneScraper - INFO - Prepared 139 smartphone links
-2021-11-03 20:05:21,535 - SmartPhoneScraper - INFO - Start url request 1 / 139: https://www.gsmarena.com/samsung_i9100_galaxy_s_ii-3621.php
-2021-11-03 20:05:24,672 - SmartPhoneScraper - INFO - Start url request 2 / 139: https://www.gsmarena.com/samsung_galaxy_note_n7000-4135.php
-2021-11-03 20:05:27,835 - SmartPhoneScraper - INFO - Start url request 3 / 139: https://www.gsmarena.com/samsung_galaxy_y_s5360-4117.php
-2021-11-03 20:05:31,008 - SmartPhoneScraper - INFO - Start url request 4 / 139: https://www.gsmarena.com/samsung_galaxy_ace_s5830-3724.php
-2021-11-03 20:05:34,174 - SmartPhoneScraper - INFO - Start url request 5 / 139: https://www.gsmarena.com/samsung_galaxy_mini_s5570-3725.php
-2021-11-03 20:05:37,871 - SmartPhoneScraper - INFO - Start url request 6 / 139: https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php
-2021-11-03 20:05:41,024 - SmartPhoneScraper - INFO - Start url request 7 / 139: https://www.gsmarena.com/samsung_galaxy_ace_s5830i-4664.php
-2021-11-03 20:05:44,180 - SmartPhoneScraper - INFO - Start url request 8 / 139: https://www.gsmarena.com/samsung_galaxy_w_i8150-4114.php
-2021-11-03 20:05:47,419 - SmartPhoneScraper - INFO - Start url request 9 / 139: https://www.gsmarena.com/samsung_galaxy_y_duos_s6102-4385.php
-2021-11-03 20:05:50,594 - SmartPhoneScraper - INFO - Start url request 10 / 139: https://www.gsmarena.com/samsung_i9001_galaxy_s_plus-3908.php
-2021-11-03 20:05:53,747 - SmartPhoneScraper - INFO - Start url request 11 / 139: https://www.gsmarena.com/samsung_s5610-4191.php
-2021-11-03 20:05:56,925 - SmartPhoneScraper - INFO - Start url request 12 / 139: https://www.gsmarena.com/samsung_s8600_wave_3-4126.php
-2021-11-03 20:06:00,079 - SmartPhoneScraper - INFO - Start url request 13 / 139: https://www.gsmarena.com/samsung_c3322-3941.php
-2021-11-03 20:06:03,222 - SmartPhoneScraper - INFO - Start url request 14 / 139: https://www.gsmarena.com/samsung_galaxy_gio_s5660-3741.php
-2021-11-03 20:06:06,432 - SmartPhoneScraper - INFO - Start url request 15 / 139: https://www.gsmarena.com/samsung_i9100g_galaxy_s_ii-4327.php
-2021-11-03 20:06:09,569 - SmartPhoneScraper - INFO - Start url request 16 / 139: https://www.gsmarena.com/samsung_s3850_corby_ii-3765.php
-2021-11-03 20:06:12,721 - SmartPhoneScraper - INFO - Start url request 17 / 139: https://www.gsmarena.com/samsung_s5690_galaxy_xcover-4091.php
-2021-11-03 20:06:15,897 - SmartPhoneScraper - INFO - Start url request 18 / 139: https://www.gsmarena.com/samsung_i9003_galaxy_sl-3761.php
-2021-11-03 20:06:19,060 - SmartPhoneScraper - INFO - Start url request 19 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_hd_lte-4198.php
-2021-11-03 20:06:22,207 - SmartPhoneScraper - INFO - Start url request 20 / 139: https://www.gsmarena.com/samsung_galaxy_fit_s5670-3726.php
-2021-11-03 20:06:25,355 - SmartPhoneScraper - INFO - Start url request 21 / 139: https://www.gsmarena.com/samsung_galaxy_s_wifi_5_0-3838.php
-2021-11-03 20:06:28,526 - SmartPhoneScraper - INFO - Start url request 22 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_lte_i9210-4124.php
-2021-11-03 20:06:31,660 - SmartPhoneScraper - INFO - Start url request 23 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_t989-4129.php
-2021-11-03 20:06:34,805 - SmartPhoneScraper - INFO - Start url request 24 / 139: https://www.gsmarena.com/samsung_s5260_star_ii-3718.php
-2021-11-03 20:06:37,968 - SmartPhoneScraper - INFO - Start url request 25 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_epic_4g_touch-3956.php
-2021-11-03 20:06:41,117 - SmartPhoneScraper - INFO - Start url request 26 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_4g_i9100m-4059.php
-2021-11-03 20:06:44,289 - SmartPhoneScraper - INFO - Start url request 27 / 139: https://www.gsmarena.com/samsung_ch@t_222-3993.php
-2021-11-03 20:06:47,438 - SmartPhoneScraper - INFO - Start url request 28 / 139: https://www.gsmarena.com/samsung_i9103_galaxy_r-3967.php
-2021-11-03 20:06:50,610 - SmartPhoneScraper - INFO - Start url request 29 / 139: https://www.gsmarena.com/samsung_galaxy_s_4g_t959-3719.php
-2021-11-03 20:06:53,751 - SmartPhoneScraper - INFO - Start url request 30 / 139: https://www.gsmarena.com/samsung_galaxy_y_pro_b5510-4116.php
-2021-11-03 20:06:56,936 - SmartPhoneScraper - INFO - Start url request 31 / 139: https://www.gsmarena.com/samsung_galaxy_pro_b7510-3850.php
-2021-11-03 20:07:00,085 - SmartPhoneScraper - INFO - Start url request 32 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_i777-4130.php
-2021-11-03 20:07:03,265 - SmartPhoneScraper - INFO - Start url request 33 / 139: https://www.gsmarena.com/samsung_omnia_w_i8350-4200.php
-2021-11-03 20:07:06,436 - SmartPhoneScraper - INFO - Start url request 34 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_skyrocket_i727-4303.php
-2021-11-03 20:07:09,575 - SmartPhoneScraper - INFO - Start url request 35 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_x_t989d-4468.php
-2021-11-03 20:07:12,713 - SmartPhoneScraper - INFO - Start url request 36 / 139: https://www.gsmarena.com/samsung_wave_y_s5380-4127.php
-2021-11-03 20:07:15,876 - SmartPhoneScraper - INFO - Start url request 37 / 139: https://www.gsmarena.com/samsung_galaxy_y_pro_duos_b5512-4371.php
-2021-11-03 20:07:19,030 - SmartPhoneScraper - INFO - Start url request 38 / 139: https://www.gsmarena.com/samsung_e2232-3940.php
-2021-11-03 20:07:22,193 - SmartPhoneScraper - INFO - Start url request 39 / 139: https://www.gsmarena.com/samsung_c3350-4271.php
-2021-11-03 20:07:25,338 - SmartPhoneScraper - INFO - Start url request 40 / 139: https://www.gsmarena.com/samsung_galaxy_nexus_i515-4301.php
-2021-11-03 20:07:28,488 - SmartPhoneScraper - INFO - Start url request 41 / 139: https://www.gsmarena.com/samsung_i997_infuse_4g-3705.php
-2021-11-03 20:07:31,677 - SmartPhoneScraper - INFO - Start url request 42 / 139: https://www.gsmarena.com/samsung_e1230-4336.php
-2021-11-03 20:07:34,828 - SmartPhoneScraper - INFO - Start url request 43 / 139: https://www.gsmarena.com/samsung_e2652_champ_duos-3845.php
-2021-11-03 20:07:37,983 - SmartPhoneScraper - INFO - Start url request 44 / 139: https://www.gsmarena.com/samsung_google_nexus_s_4g-3884.php
-2021-11-03 20:07:41,150 - SmartPhoneScraper - INFO - Start url request 45 / 139: https://www.gsmarena.com/samsung_c6712_star_ii_duos-3921.php
-2021-11-03 20:07:44,342 - SmartPhoneScraper - INFO - Start url request 46 / 139: https://www.gsmarena.com/samsung_e2652w_champ_duos-3844.php
-2021-11-03 20:07:47,491 - SmartPhoneScraper - INFO - Start url request 47 / 139: https://www.gsmarena.com/samsung_c3330_champ_2-4217.php
-2021-11-03 20:07:50,641 - SmartPhoneScraper - INFO - Start url request 48 / 139: https://www.gsmarena.com/samsung_exhibit_ii_4g_t679-4277.php
-2021-11-03 20:07:53,787 - SmartPhoneScraper - INFO - Start url request 49 / 139: https://www.gsmarena.com/samsung_droid_charge_i510-3733.php
-2021-11-03 20:07:56,958 - SmartPhoneScraper - INFO - Start url request 50 / 139: https://www.gsmarena.com/samsung_google_nexus_s_i9023-3910.php
-2021-11-03 20:08:00,106 - SmartPhoneScraper - INFO - Start url request 51 / 139: https://www.gsmarena.com/samsung_e1232b-4337.php
-2021-11-03 20:08:03,242 - SmartPhoneScraper - INFO - Start url request 52 / 139: https://www.gsmarena.com/samsung_e3210-3766.php
-2021-11-03 20:08:06,467 - SmartPhoneScraper - INFO - Start url request 53 / 139: https://www.gsmarena.com/samsung_google_nexus_s_i9020a-3920.php
-2021-11-03 20:08:09,792 - SmartPhoneScraper - INFO - Start url request 54 / 139: https://www.gsmarena.com/samsung_wave_m_s7250-4054.php
-2021-11-03 20:08:13,065 - SmartPhoneScraper - INFO - Start url request 55 / 139: https://www.gsmarena.com/samsung_galaxy_prevail-3916.php
-2021-11-03 20:08:16,356 - SmartPhoneScraper - INFO - Start url request 56 / 139: https://www.gsmarena.com/samsung_galaxy_m_pro_b7800-4115.php
-2021-11-03 20:08:19,553 - SmartPhoneScraper - INFO - Start url request 57 / 139: https://www.gsmarena.com/samsung_e1050-5556.php
-2021-11-03 20:08:23,128 - SmartPhoneScraper - INFO - Start url request 58 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_lte_i727r-4376.php
-2021-11-03 20:08:26,381 - SmartPhoneScraper - INFO - Start url request 59 / 139: https://www.gsmarena.com/samsung_galaxy_y_tv_s5367-4694.php
-2021-11-03 20:08:29,889 - SmartPhoneScraper - INFO - Start url request 60 / 139: https://www.gsmarena.com/samsung_dart_t499-4055.php
-2021-11-03 20:08:33,194 - SmartPhoneScraper - INFO - Start url request 61 / 139: https://www.gsmarena.com/samsung_i929_galaxy_s_ii_duos-4387.php
-2021-11-03 20:08:36,387 - SmartPhoneScraper - INFO - Start url request 62 / 139: https://www.gsmarena.com/samsung_r380_freeform_iii-4039.php
-2021-11-03 20:08:39,551 - SmartPhoneScraper - INFO - Start url request 63 / 139: https://www.gsmarena.com/samsung_s3770-4100.php
-2021-11-03 20:08:42,698 - SmartPhoneScraper - INFO - Start url request 64 / 139: https://www.gsmarena.com/samsung_focus_s_i937-4158.php
-2021-11-03 20:08:45,863 - SmartPhoneScraper - INFO - Start url request 65 / 139: https://www.gsmarena.com/samsung_i110_illusion-4344.php
-2021-11-03 20:08:49,012 - SmartPhoneScraper - INFO - Start url request 66 / 139: https://www.gsmarena.com/samsung_e3213_hero-4030.php
-2021-11-03 20:08:52,177 - SmartPhoneScraper - INFO - Start url request 67 / 139: https://www.gsmarena.com/samsung_ch@t_527-4096.php
-2021-11-03 20:08:55,371 - SmartPhoneScraper - INFO - Start url request 68 / 139: https://www.gsmarena.com/samsung_s5780_wave_578-3778.php
-2021-11-03 20:08:58,532 - SmartPhoneScraper - INFO - Start url request 69 / 139: https://www.gsmarena.com/samsung_m220l_galaxy_neo-3913.php
-2021-11-03 20:09:01,694 - SmartPhoneScraper - INFO - Start url request 70 / 139: https://www.gsmarena.com/samsung_exhibit_4g-3968.php
-2021-11-03 20:09:04,866 - SmartPhoneScraper - INFO - Start url request 71 / 139: https://www.gsmarena.com/samsung_i9300_galaxy_s_iii-4238.php
-2021-11-03 20:09:08,072 - SmartPhoneScraper - INFO - Start url request 72 / 139: https://www.gsmarena.com/samsung_galaxy_note_ii_n7100-4854.php
-2021-11-03 20:09:11,250 - SmartPhoneScraper - INFO - Start url request 73 / 139: https://www.gsmarena.com/samsung_i8190_galaxy_s_iii_mini-5033.php
-2021-11-03 20:09:14,426 - SmartPhoneScraper - INFO - Start url request 74 / 139: https://www.gsmarena.com/samsung_galaxy_grand_i9082-5163.php
-2021-11-03 20:09:17,597 - SmartPhoneScraper - INFO - Start url request 75 / 139: https://www.gsmarena.com/samsung_galaxy_s_duos_s7562-4883.php
-2021-11-03 20:09:20,760 - SmartPhoneScraper - INFO - Start url request 76 / 139: https://www.gsmarena.com/samsung_galaxy_ace_2_i8160-4559.php
-2021-11-03 20:09:23,920 - SmartPhoneScraper - INFO - Start url request 77 / 139: https://www.gsmarena.com/samsung_i8530_galaxy_beam-4566.php
-2021-11-03 20:09:27,066 - SmartPhoneScraper - INFO - Start url request 78 / 139: https://www.gsmarena.com/samsung_galaxy_camera_gc100-4961.php
-2021-11-03 20:09:30,245 - SmartPhoneScraper - INFO - Start url request 79 / 139: https://www.gsmarena.com/samsung_galaxy_pocket_s5300-4612.php
-2021-11-03 20:09:33,390 - SmartPhoneScraper - INFO - Start url request 80 / 139: https://www.gsmarena.com/samsung_i9305_galaxy_s_iii-5001.php
-2021-11-03 20:09:36,555 - SmartPhoneScraper - INFO - Start url request 81 / 139: https://www.gsmarena.com/samsung_i9070_galaxy_s_advance-4469.php
-2021-11-03 20:09:39,708 - SmartPhoneScraper - INFO - Start url request 82 / 139: https://www.gsmarena.com/samsung_galaxy_chat_b5330-4866.php
-2021-11-03 20:09:42,846 - SmartPhoneScraper - INFO - Start url request 83 / 139: https://www.gsmarena.com/samsung_e1200_pusha-4919.php
-2021-11-03 20:09:46,008 - SmartPhoneScraper - INFO - Start url request 84 / 139: https://www.gsmarena.com/samsung_galaxy_mini_2_s6500-3883.php
-2021-11-03 20:09:49,161 - SmartPhoneScraper - INFO - Start url request 85 / 139: https://www.gsmarena.com/samsung_galaxy_ace_plus_s7500-4397.php
-2021-11-03 20:09:52,316 - SmartPhoneScraper - INFO - Start url request 86 / 139: https://www.gsmarena.com/samsung_galaxy_s_iii_i747-4803.php
-2021-11-03 20:09:55,460 - SmartPhoneScraper - INFO - Start url request 87 / 139: https://www.gsmarena.com/samsung_galaxy_pocket_plus_s5301-5461.php
-2021-11-03 20:09:58,625 - SmartPhoneScraper - INFO - Start url request 88 / 139: https://www.gsmarena.com/samsung_galaxy_ace_duos_s6802-4777.php
-2021-11-03 20:10:01,771 - SmartPhoneScraper - INFO - Start url request 89 / 139: https://www.gsmarena.com/samsung_galaxy_note_ii_cdma-5152.php
-2021-11-03 20:10:04,912 - SmartPhoneScraper - INFO - Start url request 90 / 139: https://www.gsmarena.com/samsung_galaxy_ace_ii_x_s7560m-5340.php
-2021-11-03 20:10:08,088 - SmartPhoneScraper - INFO - Start url request 91 / 139: https://www.gsmarena.com/samsung_galaxy_note_i717-4374.php
-2021-11-03 20:10:11,235 - SmartPhoneScraper - INFO - Start url request 92 / 139: https://www.gsmarena.com/samsung_galaxy_grand_i9080-5162.php
-2021-11-03 20:10:14,397 - SmartPhoneScraper - INFO - Start url request 93 / 139: https://www.gsmarena.com/samsung_e2252-4870.php
-2021-11-03 20:10:17,561 - SmartPhoneScraper - INFO - Start url request 94 / 139: https://www.gsmarena.com/samsung_galaxy_s_iii_t999-4804.php
-2021-11-03 20:10:20,708 - SmartPhoneScraper - INFO - Start url request 95 / 139: https://www.gsmarena.com/samsung_ativ_s_i8750-4960.php
-2021-11-03 20:10:24,162 - SmartPhoneScraper - INFO - Start url request 96 / 139: https://www.gsmarena.com/samsung_galaxy_s_iii_cdma-4799.php
-2021-11-03 20:10:27,302 - SmartPhoneScraper - INFO - Start url request 97 / 139: https://www.gsmarena.com/samsung_galaxy_pocket_duos_s5302-4965.php
-2021-11-03 20:10:30,498 - SmartPhoneScraper - INFO - Start url request 98 / 139: https://www.gsmarena.com/samsung_c3312_duos-4403.php
-2021-11-03 20:10:33,662 - SmartPhoneScraper - INFO - Start url request 99 / 139: https://www.gsmarena.com/samsung_galaxy_note_t879-4952.php
-2021-11-03 20:10:36,818 - SmartPhoneScraper - INFO - Start url request 100 / 139: https://www.gsmarena.com/samsung_m370-4405.php
-2021-11-03 20:10:40,278 - SmartPhoneScraper - INFO - Start url request 101 / 139: https://www.gsmarena.com/samsung_galaxy_pop_plus_s5570i-4544.php
-2021-11-03 20:10:43,419 - SmartPhoneScraper - INFO - Start url request 102 / 139: https://www.gsmarena.com/samsung_galaxy_rugby_pro_i547-5019.php
-2021-11-03 20:10:46,602 - SmartPhoneScraper - INFO - Start url request 103 / 139: https://www.gsmarena.com/samsung_star_3_duos_s5222-4447.php
-2021-11-03 20:10:49,775 - SmartPhoneScraper - INFO - Start url request 104 / 139: https://www.gsmarena.com/samsung_galaxy_music_duos_s6012-5027.php
-2021-11-03 20:10:52,931 - SmartPhoneScraper - INFO - Start url request 105 / 139: https://www.gsmarena.com/samsung_galaxy_nexus_i9250m-4432.php
-2021-11-03 20:10:56,097 - SmartPhoneScraper - INFO - Start url request 106 / 139: https://www.gsmarena.com/samsung_star_3_s5220-4448.php
-2021-11-03 20:10:59,271 - SmartPhoneScraper - INFO - Start url request 107 / 139: https://www.gsmarena.com/samsung_galaxy_music_s6010-5026.php
-2021-11-03 20:11:02,432 - SmartPhoneScraper - INFO - Start url request 108 / 139: https://www.gsmarena.com/samsung_galaxy_premier_i9260-5047.php
-2021-11-03 20:11:05,868 - SmartPhoneScraper - INFO - Start url request 109 / 139: https://www.gsmarena.com/samsung_ch@t_357-4931.php
-2021-11-03 20:11:09,012 - SmartPhoneScraper - INFO - Start url request 110 / 139: https://www.gsmarena.com/samsung_galaxy_victory_4g_lte_l300-4992.php
-2021-11-03 20:11:12,179 - SmartPhoneScraper - INFO - Start url request 111 / 139: https://www.gsmarena.com/samsung_champ_neo_duos_c3262-4999.php
-2021-11-03 20:11:15,330 - SmartPhoneScraper - INFO - Start url request 112 / 139: https://www.gsmarena.com/samsung_galaxy_rush_m830-4957.php
-2021-11-03 20:11:18,494 - SmartPhoneScraper - INFO - Start url request 113 / 139: https://www.gsmarena.com/samsung_galaxy_s_blaze_4g_t769-4420.php
-2021-11-03 20:11:21,640 - SmartPhoneScraper - INFO - Start url request 114 / 139: https://www.gsmarena.com/samsung_galaxy_player_70_plus-4633.php
-2021-11-03 20:11:24,810 - SmartPhoneScraper - INFO - Start url request 115 / 139: https://www.gsmarena.com/samsung_galaxy_discover_s730m-5111.php
-2021-11-03 20:11:27,976 - SmartPhoneScraper - INFO - Start url request 116 / 139: https://www.gsmarena.com/samsung_galaxy_m_style_m340s-4401.php
-2021-11-03 20:11:31,124 - SmartPhoneScraper - INFO - Start url request 117 / 139: https://www.gsmarena.com/samsung_exhilarate_i577-4415.php
-2021-11-03 20:11:34,262 - SmartPhoneScraper - INFO - Start url request 118 / 139: https://www.gsmarena.com/samsung_galaxy_nexus_lte_l700-4406.php
-2021-11-03 20:11:37,500 - SmartPhoneScraper - INFO - Start url request 119 / 139: https://www.gsmarena.com/samsung_galaxy_s_ii_skyrocket_hd_i757-4414.php
-2021-11-03 20:11:40,722 - SmartPhoneScraper - INFO - Start url request 120 / 139: https://www.gsmarena.com/samsung_galaxy_ace_duos_i589-4548.php
-2021-11-03 20:11:43,878 - SmartPhoneScraper - INFO - Start url request 121 / 139: https://www.gsmarena.com/samsung_rugby_smart_i847-4564.php
-2021-11-03 20:11:47,027 - SmartPhoneScraper - INFO - Start url request 122 / 139: https://www.gsmarena.com/samsung_manhattan_e3300-5342.php
-2021-11-03 20:11:50,180 - SmartPhoneScraper - INFO - Start url request 123 / 139: https://www.gsmarena.com/samsung_c3780-4851.php
-2021-11-03 20:11:53,348 - SmartPhoneScraper - INFO - Start url request 124 / 139: https://www.gsmarena.com/samsung_galaxy_proclaim_s720c-4754.php
-2021-11-03 20:11:56,525 - SmartPhoneScraper - INFO - Start url request 125 / 139: https://www.gsmarena.com/samsung_star_deluxe_duos_s5292-5059.php
-2021-11-03 20:11:59,705 - SmartPhoneScraper - INFO - Start url request 126 / 139: https://www.gsmarena.com/samsung_galaxy_axiom_r830-5144.php
-2021-11-03 20:12:02,861 - SmartPhoneScraper - INFO - Start url request 127 / 139: https://www.gsmarena.com/samsung_galaxy_i8250-4857.php
-2021-11-03 20:12:06,014 - SmartPhoneScraper - INFO - Start url request 128 / 139: https://www.gsmarena.com/samsung_galaxy_stellar_4g_i200-4954.php
-2021-11-03 20:12:09,166 - SmartPhoneScraper - INFO - Start url request 129 / 139: https://www.gsmarena.com/samsung_galaxy_express_i437-5018.php
-2021-11-03 20:12:12,323 - SmartPhoneScraper - INFO - Start url request 130 / 139: https://www.gsmarena.com/samsung_galaxy_attain_4g-4431.php
-2021-11-03 20:12:15,482 - SmartPhoneScraper - INFO - Start url request 131 / 139: https://www.gsmarena.com/samsung_omnia_m_s7530-4750.php
-2021-11-03 20:12:18,646 - SmartPhoneScraper - INFO - Start url request 132 / 139: https://www.gsmarena.com/samsung_galaxy_s_lightray_4g_r940-4900.php
-2021-11-03 20:12:21,794 - SmartPhoneScraper - INFO - Start url request 133 / 139: https://www.gsmarena.com/samsung_galaxy_ace_advance_s6800-5114.php
-2021-11-03 20:12:24,946 - SmartPhoneScraper - INFO - Start url request 134 / 139: https://www.gsmarena.com/samsung_focus_2_i667-4745.php
-2021-11-03 20:12:28,092 - SmartPhoneScraper - INFO - Start url request 135 / 139: https://www.gsmarena.com/samsung_i9500_fraser-4752.php
-2021-11-03 20:12:31,243 - SmartPhoneScraper - INFO - Start url request 136 / 139: https://www.gsmarena.com/samsung_c3782_evan-4753.php
-2021-11-03 20:12:34,394 - SmartPhoneScraper - INFO - Start url request 137 / 139: https://www.gsmarena.com/samsung_comment_2_r390c-5079.php
-2021-11-03 20:12:37,547 - SmartPhoneScraper - INFO - Start url request 138 / 139: https://www.gsmarena.com/samsung_e1260b-5311.php
-2021-11-03 20:12:40,716 - SmartPhoneScraper - INFO - Start url request 139 / 139: https://www.gsmarena.com/samsung_e2262-5341.php
-2021-11-03 20:12:43,890 - SmartPhoneScraper - INFO - Got 139 smartphone pages
-2021-11-03 20:12:43,927 - SmartPhoneScraper - INFO - Extract Samsung I9100 Galaxy S II data from https://www.gsmarena.com/samsung_i9100_galaxy_s_ii-3621.php
-2021-11-03 20:12:43,966 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Note N7000 data from https://www.gsmarena.com/samsung_galaxy_note_n7000-4135.php
-2021-11-03 20:12:44,004 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Y S5360 data from https://www.gsmarena.com/samsung_galaxy_y_s5360-4117.php
-2021-11-03 20:12:44,049 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace S5830 data from https://www.gsmarena.com/samsung_galaxy_ace_s5830-3724.php
-2021-11-03 20:12:44,090 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Mini S5570 data from https://www.gsmarena.com/samsung_galaxy_mini_s5570-3725.php
-2021-11-03 20:12:44,139 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Nexus I9250 data from https://www.gsmarena.com/samsung_galaxy_nexus_i9250-4219.php
-2021-11-03 20:12:44,174 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace S5830I data from https://www.gsmarena.com/samsung_galaxy_ace_s5830i-4664.php
-2021-11-03 20:12:44,209 - SmartPhoneScraper - INFO - Extract Samsung Galaxy W I8150 data from https://www.gsmarena.com/samsung_galaxy_w_i8150-4114.php
-2021-11-03 20:12:44,243 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Y Duos S6102 data from https://www.gsmarena.com/samsung_galaxy_y_duos_s6102-4385.php
-2021-11-03 20:12:44,278 - SmartPhoneScraper - INFO - Extract Samsung I9001 Galaxy S Plus data from https://www.gsmarena.com/samsung_i9001_galaxy_s_plus-3908.php
-2021-11-03 20:12:44,312 - SmartPhoneScraper - INFO - Extract Samsung S5610 data from https://www.gsmarena.com/samsung_s5610-4191.php
-2021-11-03 20:12:44,345 - SmartPhoneScraper - INFO - Extract Samsung S8600 Wave 3 data from https://www.gsmarena.com/samsung_s8600_wave_3-4126.php
-2021-11-03 20:12:44,380 - SmartPhoneScraper - INFO - Extract Samsung C3322 data from https://www.gsmarena.com/samsung_c3322-3941.php
-2021-11-03 20:12:44,416 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Gio S5660 data from https://www.gsmarena.com/samsung_galaxy_gio_s5660-3741.php
-2021-11-03 20:12:44,451 - SmartPhoneScraper - INFO - Extract Samsung I9100G Galaxy S II data from https://www.gsmarena.com/samsung_i9100g_galaxy_s_ii-4327.php
-2021-11-03 20:12:44,487 - SmartPhoneScraper - INFO - Extract Samsung S3850 Corby II data from https://www.gsmarena.com/samsung_s3850_corby_ii-3765.php
-2021-11-03 20:12:44,523 - SmartPhoneScraper - INFO - Extract Samsung S5690 Galaxy Xcover data from https://www.gsmarena.com/samsung_s5690_galaxy_xcover-4091.php
-2021-11-03 20:12:44,565 - SmartPhoneScraper - INFO - Extract Samsung I9003 Galaxy SL data from https://www.gsmarena.com/samsung_i9003_galaxy_sl-3761.php
-2021-11-03 20:12:44,612 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II HD LTE data from https://www.gsmarena.com/samsung_galaxy_s_ii_hd_lte-4198.php
-2021-11-03 20:12:44,651 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Fit S5670 data from https://www.gsmarena.com/samsung_galaxy_fit_s5670-3726.php
-2021-11-03 20:12:44,686 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S WiFi 5.0 data from https://www.gsmarena.com/samsung_galaxy_s_wifi_5_0-3838.php
-2021-11-03 20:12:44,724 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II LTE I9210 data from https://www.gsmarena.com/samsung_galaxy_s_ii_lte_i9210-4124.php
-2021-11-03 20:12:44,765 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II T989 data from https://www.gsmarena.com/samsung_galaxy_s_ii_t989-4129.php
-2021-11-03 20:12:44,800 - SmartPhoneScraper - INFO - Extract Samsung S5260 Star II data from https://www.gsmarena.com/samsung_s5260_star_ii-3718.php
-2021-11-03 20:12:44,830 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II Epic 4G Touch data from https://www.gsmarena.com/samsung_galaxy_s_ii_epic_4g_touch-3956.php
-2021-11-03 20:12:44,884 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II 4G I9100M data from https://www.gsmarena.com/samsung_galaxy_s_ii_4g_i9100m-4059.php
-2021-11-03 20:12:44,918 - SmartPhoneScraper - INFO - Extract Samsung Ch@t 222 data from https://www.gsmarena.com/samsung_ch@t_222-3993.php
-2021-11-03 20:12:44,957 - SmartPhoneScraper - INFO - Extract Samsung I9103 Galaxy R data from https://www.gsmarena.com/samsung_i9103_galaxy_r-3967.php
-2021-11-03 20:12:44,990 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S 4G T959 data from https://www.gsmarena.com/samsung_galaxy_s_4g_t959-3719.php
-2021-11-03 20:12:45,025 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Y Pro B5510 data from https://www.gsmarena.com/samsung_galaxy_y_pro_b5510-4116.php
-2021-11-03 20:12:45,056 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Pro B7510 data from https://www.gsmarena.com/samsung_galaxy_pro_b7510-3850.php
-2021-11-03 20:12:45,101 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II I777 data from https://www.gsmarena.com/samsung_galaxy_s_ii_i777-4130.php
-2021-11-03 20:12:45,137 - SmartPhoneScraper - INFO - Extract Samsung Omnia W I8350 data from https://www.gsmarena.com/samsung_omnia_w_i8350-4200.php
-2021-11-03 20:12:45,169 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II Skyrocket i727 data from https://www.gsmarena.com/samsung_galaxy_s_ii_skyrocket_i727-4303.php
-2021-11-03 20:12:45,201 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II X T989D data from https://www.gsmarena.com/samsung_galaxy_s_ii_x_t989d-4468.php
-2021-11-03 20:12:45,237 - SmartPhoneScraper - INFO - Extract Samsung Wave Y S5380 data from https://www.gsmarena.com/samsung_wave_y_s5380-4127.php
-2021-11-03 20:12:45,275 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Y Pro Duos B5512 data from https://www.gsmarena.com/samsung_galaxy_y_pro_duos_b5512-4371.php
-2021-11-03 20:12:45,310 - SmartPhoneScraper - INFO - Extract Samsung E2232 data from https://www.gsmarena.com/samsung_e2232-3940.php
-2021-11-03 20:12:45,342 - SmartPhoneScraper - INFO - Extract Samsung C3350 data from https://www.gsmarena.com/samsung_c3350-4271.php
-2021-11-03 20:12:45,372 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Nexus i515 data from https://www.gsmarena.com/samsung_galaxy_nexus_i515-4301.php
-2021-11-03 20:12:45,408 - SmartPhoneScraper - INFO - Extract Samsung I997 Infuse 4G data from https://www.gsmarena.com/samsung_i997_infuse_4g-3705.php
-2021-11-03 20:12:45,439 - SmartPhoneScraper - INFO - Extract Samsung E1230 data from https://www.gsmarena.com/samsung_e1230-4336.php
-2021-11-03 20:12:45,471 - SmartPhoneScraper - INFO - Extract Samsung E2652 Champ Duos data from https://www.gsmarena.com/samsung_e2652_champ_duos-3845.php
-2021-11-03 20:12:45,501 - SmartPhoneScraper - INFO - Extract Samsung Google Nexus S 4G data from https://www.gsmarena.com/samsung_google_nexus_s_4g-3884.php
-2021-11-03 20:12:45,537 - SmartPhoneScraper - INFO - Extract Samsung C6712 Star II DUOS data from https://www.gsmarena.com/samsung_c6712_star_ii_duos-3921.php
-2021-11-03 20:12:45,581 - SmartPhoneScraper - INFO - Extract Samsung E2652W Champ Duos data from https://www.gsmarena.com/samsung_e2652w_champ_duos-3844.php
-2021-11-03 20:12:45,645 - SmartPhoneScraper - INFO - Extract Samsung C3330 Champ 2 data from https://www.gsmarena.com/samsung_c3330_champ_2-4217.php
-2021-11-03 20:12:45,679 - SmartPhoneScraper - INFO - Extract Samsung Exhibit II 4G T679 data from https://www.gsmarena.com/samsung_exhibit_ii_4g_t679-4277.php
-2021-11-03 20:12:45,710 - SmartPhoneScraper - INFO - Extract Samsung Droid Charge I510 data from https://www.gsmarena.com/samsung_droid_charge_i510-3733.php
-2021-11-03 20:12:45,744 - SmartPhoneScraper - INFO - Extract Samsung Google Nexus S I9023 data from https://www.gsmarena.com/samsung_google_nexus_s_i9023-3910.php
-2021-11-03 20:12:45,777 - SmartPhoneScraper - INFO - Extract Samsung E1232B data from https://www.gsmarena.com/samsung_e1232b-4337.php
-2021-11-03 20:12:45,809 - SmartPhoneScraper - INFO - Extract Samsung E3210 data from https://www.gsmarena.com/samsung_e3210-3766.php
-2021-11-03 20:12:45,840 - SmartPhoneScraper - INFO - Extract Samsung Google Nexus S I9020A data from https://www.gsmarena.com/samsung_google_nexus_s_i9020a-3920.php
-2021-11-03 20:12:45,876 - SmartPhoneScraper - INFO - Extract Samsung Wave M S7250 data from https://www.gsmarena.com/samsung_wave_m_s7250-4054.php
-2021-11-03 20:12:45,904 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Prevail data from https://www.gsmarena.com/samsung_galaxy_prevail-3916.php
-2021-11-03 20:12:45,937 - SmartPhoneScraper - INFO - Extract Samsung Galaxy M Pro B7800 data from https://www.gsmarena.com/samsung_galaxy_m_pro_b7800-4115.php
-2021-11-03 20:12:45,968 - SmartPhoneScraper - INFO - Extract Samsung E1050 data from https://www.gsmarena.com/samsung_e1050-5556.php
-2021-11-03 20:12:46,008 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II LTE i727R data from https://www.gsmarena.com/samsung_galaxy_s_ii_lte_i727r-4376.php
-2021-11-03 20:12:46,039 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Y TV S5367 data from https://www.gsmarena.com/samsung_galaxy_y_tv_s5367-4694.php
-2021-11-03 20:12:46,069 - SmartPhoneScraper - INFO - Extract Samsung Dart T499 data from https://www.gsmarena.com/samsung_dart_t499-4055.php
-2021-11-03 20:12:46,114 - SmartPhoneScraper - INFO - Extract Samsung I929 Galaxy S II Duos data from https://www.gsmarena.com/samsung_i929_galaxy_s_ii_duos-4387.php
-2021-11-03 20:12:46,146 - SmartPhoneScraper - INFO - Extract Samsung R380 Freeform III data from https://www.gsmarena.com/samsung_r380_freeform_iii-4039.php
-2021-11-03 20:12:46,178 - SmartPhoneScraper - INFO - Extract Samsung S3770 data from https://www.gsmarena.com/samsung_s3770-4100.php
-2021-11-03 20:12:46,210 - SmartPhoneScraper - INFO - Extract Samsung Focus S I937 data from https://www.gsmarena.com/samsung_focus_s_i937-4158.php
-2021-11-03 20:12:46,240 - SmartPhoneScraper - INFO - Extract Samsung I110 Illusion data from https://www.gsmarena.com/samsung_i110_illusion-4344.php
-2021-11-03 20:12:46,275 - SmartPhoneScraper - INFO - Extract Samsung E3213 Hero data from https://www.gsmarena.com/samsung_e3213_hero-4030.php
-2021-11-03 20:12:46,314 - SmartPhoneScraper - INFO - Extract Samsung Ch@t 527 data from https://www.gsmarena.com/samsung_ch@t_527-4096.php
-2021-11-03 20:12:46,371 - SmartPhoneScraper - INFO - Extract Samsung S5780 Wave 578 data from https://www.gsmarena.com/samsung_s5780_wave_578-3778.php
-2021-11-03 20:12:46,401 - SmartPhoneScraper - INFO - Extract Samsung M220L Galaxy Neo data from https://www.gsmarena.com/samsung_m220l_galaxy_neo-3913.php
-2021-11-03 20:12:46,444 - SmartPhoneScraper - INFO - Extract Samsung Exhibit 4G data from https://www.gsmarena.com/samsung_exhibit_4g-3968.php
-2021-11-03 20:12:46,481 - SmartPhoneScraper - INFO - Extract Samsung I9300 Galaxy S III data from https://www.gsmarena.com/samsung_i9300_galaxy_s_iii-4238.php
-2021-11-03 20:12:46,518 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Note II N7100 data from https://www.gsmarena.com/samsung_galaxy_note_ii_n7100-4854.php
-2021-11-03 20:12:46,556 - SmartPhoneScraper - INFO - Extract Samsung I8190 Galaxy S III mini data from https://www.gsmarena.com/samsung_i8190_galaxy_s_iii_mini-5033.php
-2021-11-03 20:12:46,593 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Grand I9082 data from https://www.gsmarena.com/samsung_galaxy_grand_i9082-5163.php
-2021-11-03 20:12:46,630 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S Duos S7562 data from https://www.gsmarena.com/samsung_galaxy_s_duos_s7562-4883.php
-2021-11-03 20:12:46,666 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace 2 I8160 data from https://www.gsmarena.com/samsung_galaxy_ace_2_i8160-4559.php
-2021-11-03 20:12:46,705 - SmartPhoneScraper - INFO - Extract Samsung I8530 Galaxy Beam data from https://www.gsmarena.com/samsung_i8530_galaxy_beam-4566.php
-2021-11-03 20:12:46,743 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Camera GC100 data from https://www.gsmarena.com/samsung_galaxy_camera_gc100-4961.php
-2021-11-03 20:12:46,779 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Pocket S5300 data from https://www.gsmarena.com/samsung_galaxy_pocket_s5300-4612.php
-2021-11-03 20:12:46,821 - SmartPhoneScraper - INFO - Extract Samsung I9305 Galaxy S III data from https://www.gsmarena.com/samsung_i9305_galaxy_s_iii-5001.php
-2021-11-03 20:12:46,857 - SmartPhoneScraper - INFO - Extract Samsung I9070 Galaxy S Advance data from https://www.gsmarena.com/samsung_i9070_galaxy_s_advance-4469.php
-2021-11-03 20:12:46,890 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Chat B5330 data from https://www.gsmarena.com/samsung_galaxy_chat_b5330-4866.php
-2021-11-03 20:12:46,922 - SmartPhoneScraper - INFO - Extract Samsung E1200 Pusha data from https://www.gsmarena.com/samsung_e1200_pusha-4919.php
-2021-11-03 20:12:46,959 - SmartPhoneScraper - INFO - Extract Samsung Galaxy mini 2 S6500 data from https://www.gsmarena.com/samsung_galaxy_mini_2_s6500-3883.php
-2021-11-03 20:12:46,996 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace Plus S7500 data from https://www.gsmarena.com/samsung_galaxy_ace_plus_s7500-4397.php
-2021-11-03 20:12:47,038 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S III I747 data from https://www.gsmarena.com/samsung_galaxy_s_iii_i747-4803.php
-2021-11-03 20:12:47,106 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Pocket plus S5301 data from https://www.gsmarena.com/samsung_galaxy_pocket_plus_s5301-5461.php
-2021-11-03 20:12:47,141 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace Duos S6802 data from https://www.gsmarena.com/samsung_galaxy_ace_duos_s6802-4777.php
-2021-11-03 20:12:47,176 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Note II CDMA data from https://www.gsmarena.com/samsung_galaxy_note_ii_cdma-5152.php
-2021-11-03 20:12:47,212 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace II X S7560M data from https://www.gsmarena.com/samsung_galaxy_ace_ii_x_s7560m-5340.php
-2021-11-03 20:12:47,249 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Note I717 data from https://www.gsmarena.com/samsung_galaxy_note_i717-4374.php
-2021-11-03 20:12:47,285 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Grand I9080 data from https://www.gsmarena.com/samsung_galaxy_grand_i9080-5162.php
-2021-11-03 20:12:47,318 - SmartPhoneScraper - INFO - Extract Samsung E2252 data from https://www.gsmarena.com/samsung_e2252-4870.php
-2021-11-03 20:12:47,355 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S III T999 data from https://www.gsmarena.com/samsung_galaxy_s_iii_t999-4804.php
-2021-11-03 20:12:47,391 - SmartPhoneScraper - INFO - Extract Samsung Ativ S I8750 data from https://www.gsmarena.com/samsung_ativ_s_i8750-4960.php
-2021-11-03 20:12:47,424 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S III CDMA data from https://www.gsmarena.com/samsung_galaxy_s_iii_cdma-4799.php
-2021-11-03 20:12:47,459 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Pocket Duos S5302 data from https://www.gsmarena.com/samsung_galaxy_pocket_duos_s5302-4965.php
-2021-11-03 20:12:47,493 - SmartPhoneScraper - INFO - Extract Samsung C3312 Duos data from https://www.gsmarena.com/samsung_c3312_duos-4403.php
-2021-11-03 20:12:47,527 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Note T879 data from https://www.gsmarena.com/samsung_galaxy_note_t879-4952.php
-2021-11-03 20:12:47,559 - SmartPhoneScraper - INFO - Extract Samsung M370 data from https://www.gsmarena.com/samsung_m370-4405.php
-2021-11-03 20:12:47,591 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Pop Plus S5570i data from https://www.gsmarena.com/samsung_galaxy_pop_plus_s5570i-4544.php
-2021-11-03 20:12:47,624 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Rugby Pro I547 data from https://www.gsmarena.com/samsung_galaxy_rugby_pro_i547-5019.php
-2021-11-03 20:12:47,653 - SmartPhoneScraper - INFO - Extract Samsung Star 3 Duos S5222 data from https://www.gsmarena.com/samsung_star_3_duos_s5222-4447.php
-2021-11-03 20:12:47,687 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Music Duos S6012 data from https://www.gsmarena.com/samsung_galaxy_music_duos_s6012-5027.php
-2021-11-03 20:12:47,728 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Nexus I9250M data from https://www.gsmarena.com/samsung_galaxy_nexus_i9250m-4432.php
-2021-11-03 20:12:47,760 - SmartPhoneScraper - INFO - Extract Samsung Star 3 s5220 data from https://www.gsmarena.com/samsung_star_3_s5220-4448.php
-2021-11-03 20:12:47,793 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Music S6010 data from https://www.gsmarena.com/samsung_galaxy_music_s6010-5026.php
-2021-11-03 20:12:47,852 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Premier I9260 data from https://www.gsmarena.com/samsung_galaxy_premier_i9260-5047.php
-2021-11-03 20:12:47,886 - SmartPhoneScraper - INFO - Extract Samsung Ch@t 357 data from https://www.gsmarena.com/samsung_ch@t_357-4931.php
-2021-11-03 20:12:47,919 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Victory 4G LTE L300 data from https://www.gsmarena.com/samsung_galaxy_victory_4g_lte_l300-4992.php
-2021-11-03 20:12:47,953 - SmartPhoneScraper - INFO - Extract Samsung Champ Neo Duos C3262 data from https://www.gsmarena.com/samsung_champ_neo_duos_c3262-4999.php
-2021-11-03 20:12:47,986 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Rush M830 data from https://www.gsmarena.com/samsung_galaxy_rush_m830-4957.php
-2021-11-03 20:12:48,019 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S Blaze 4G T769 data from https://www.gsmarena.com/samsung_galaxy_s_blaze_4g_t769-4420.php
-2021-11-03 20:12:48,053 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Player 70 Plus data from https://www.gsmarena.com/samsung_galaxy_player_70_plus-4633.php
-2021-11-03 20:12:48,087 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Discover S730M data from https://www.gsmarena.com/samsung_galaxy_discover_s730m-5111.php
-2021-11-03 20:12:48,120 - SmartPhoneScraper - INFO - Extract Samsung Galaxy M Style M340S data from https://www.gsmarena.com/samsung_galaxy_m_style_m340s-4401.php
-2021-11-03 20:12:48,155 - SmartPhoneScraper - INFO - Extract Samsung Exhilarate i577 data from https://www.gsmarena.com/samsung_exhilarate_i577-4415.php
-2021-11-03 20:12:48,188 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Nexus LTE L700 data from https://www.gsmarena.com/samsung_galaxy_nexus_lte_l700-4406.php
-2021-11-03 20:12:48,225 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S II Skyrocket HD I757 data from https://www.gsmarena.com/samsung_galaxy_s_ii_skyrocket_hd_i757-4414.php
-2021-11-03 20:12:48,255 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace Duos I589 data from https://www.gsmarena.com/samsung_galaxy_ace_duos_i589-4548.php
-2021-11-03 20:12:48,294 - SmartPhoneScraper - INFO - Extract Samsung Rugby Smart I847 data from https://www.gsmarena.com/samsung_rugby_smart_i847-4564.php
-2021-11-03 20:12:48,333 - SmartPhoneScraper - INFO - Extract Samsung Manhattan E3300 data from https://www.gsmarena.com/samsung_manhattan_e3300-5342.php
-2021-11-03 20:12:48,371 - SmartPhoneScraper - INFO - Extract Samsung C3780 data from https://www.gsmarena.com/samsung_c3780-4851.php
-2021-11-03 20:12:48,402 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Proclaim S720C data from https://www.gsmarena.com/samsung_galaxy_proclaim_s720c-4754.php
-2021-11-03 20:12:48,434 - SmartPhoneScraper - INFO - Extract Samsung Star Deluxe Duos S5292 data from https://www.gsmarena.com/samsung_star_deluxe_duos_s5292-5059.php
-2021-11-03 20:12:48,462 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Axiom R830 data from https://www.gsmarena.com/samsung_galaxy_axiom_r830-5144.php
-2021-11-03 20:12:48,494 - SmartPhoneScraper - INFO - Extract Samsung Galaxy I8250 data from https://www.gsmarena.com/samsung_galaxy_i8250-4857.php
-2021-11-03 20:12:48,526 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Stellar 4G I200 data from https://www.gsmarena.com/samsung_galaxy_stellar_4g_i200-4954.php
-2021-11-03 20:12:48,584 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Express I437 data from https://www.gsmarena.com/samsung_galaxy_express_i437-5018.php
-2021-11-03 20:12:48,618 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Attain 4G data from https://www.gsmarena.com/samsung_galaxy_attain_4g-4431.php
-2021-11-03 20:12:48,650 - SmartPhoneScraper - INFO - Extract Samsung Omnia M S7530 data from https://www.gsmarena.com/samsung_omnia_m_s7530-4750.php
-2021-11-03 20:12:48,683 - SmartPhoneScraper - INFO - Extract Samsung Galaxy S Lightray 4G R940 data from https://www.gsmarena.com/samsung_galaxy_s_lightray_4g_r940-4900.php
-2021-11-03 20:12:48,712 - SmartPhoneScraper - INFO - Extract Samsung Galaxy Ace Advance S6800 data from https://www.gsmarena.com/samsung_galaxy_ace_advance_s6800-5114.php
-2021-11-03 20:12:48,745 - SmartPhoneScraper - INFO - Extract Samsung Focus 2 I667 data from https://www.gsmarena.com/samsung_focus_2_i667-4745.php
-2021-11-03 20:12:48,775 - SmartPhoneScraper - INFO - Extract Samsung I9500 Fraser data from https://www.gsmarena.com/samsung_i9500_fraser-4752.php
-2021-11-03 20:12:48,809 - SmartPhoneScraper - INFO - Extract Samsung C3782 Evan data from https://www.gsmarena.com/samsung_c3782_evan-4753.php
-2021-11-03 20:12:48,841 - SmartPhoneScraper - INFO - Extract Samsung Comment 2 R390C data from https://www.gsmarena.com/samsung_comment_2_r390c-5079.php
-2021-11-03 20:12:48,876 - SmartPhoneScraper - INFO - Extract Samsung E1260B data from https://www.gsmarena.com/samsung_e1260b-5311.php
-2021-11-03 20:12:48,908 - SmartPhoneScraper - INFO - Extract Samsung E2262 data from https://www.gsmarena.com/samsung_e2262-5341.php
-2021-11-03 20:12:48,915 - SmartPhoneScraper - INFO - Done extracting Samsung smartphone data.
-2021-11-03 20:12:48,919 - SmartPhoneScraper - INFO - Writing data into file
-2021-11-03 20:12:48,948 - SmartPhoneScraper - INFO - Done writing data into file
+2021-11-03 22:27:56,439 - SmartPhoneScraper - INFO - Start scraping all Apple smartphone data from www.gsmarena.com
+2021-11-03 22:27:56,439 - SmartPhoneScraper - INFO - Prepared 5 search links
+2021-11-03 22:27:56,439 - SmartPhoneScraper - INFO - Start url request 1 / 5: https://www.gsmarena.com/results.php3?nYearMin=2011&nYearMax=2011&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-11-03 22:27:59,907 - SmartPhoneScraper - INFO - Start url request 2 / 5: https://www.gsmarena.com/results.php3?nYearMin=2012&nYearMax=2012&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-11-03 22:28:03,057 - SmartPhoneScraper - INFO - Start url request 3 / 5: https://www.gsmarena.com/results.php3?nYearMin=2013&nYearMax=2013&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-11-03 22:28:06,247 - SmartPhoneScraper - INFO - Start url request 4 / 5: https://www.gsmarena.com/results.php3?nYearMin=2014&nYearMax=2014&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-11-03 22:28:09,527 - SmartPhoneScraper - INFO - Start url request 5 / 5: https://www.gsmarena.com/results.php3?nYearMin=2015&nYearMax=2015&sMakers=48&sAvailabilities=1,3&sFormFactors=1
+2021-11-03 22:28:12,667 - SmartPhoneScraper - INFO - Got 5 search pages
+2021-11-03 22:28:12,667 - SmartPhoneScraper - INFO - Start getting all smartphone links from the search pages.
+2021-11-03 22:28:12,730 - SmartPhoneScraper - INFO - Prepared 9 smartphone links
+2021-11-03 22:28:12,730 - SmartPhoneScraper - INFO - Start url request 1 / 9: https://www.gsmarena.com/apple_iphone_4s-4212.php
+2021-11-03 22:28:15,896 - SmartPhoneScraper - INFO - Start url request 2 / 9: https://www.gsmarena.com/apple_iphone_4_cdma-3716.php
+2021-11-03 22:28:19,077 - SmartPhoneScraper - INFO - Start url request 3 / 9: https://www.gsmarena.com/apple_iphone_5-4910.php
+2021-11-03 22:28:22,227 - SmartPhoneScraper - INFO - Start url request 4 / 9: https://www.gsmarena.com/apple_iphone_5s-5685.php
+2021-11-03 22:28:25,597 - SmartPhoneScraper - INFO - Start url request 5 / 9: https://www.gsmarena.com/apple_iphone_5c-5690.php
+2021-11-03 22:28:28,736 - SmartPhoneScraper - INFO - Start url request 6 / 9: https://www.gsmarena.com/apple_iphone_6-6378.php
+2021-11-03 22:28:31,986 - SmartPhoneScraper - INFO - Start url request 7 / 9: https://www.gsmarena.com/apple_iphone_6_plus-6665.php
+2021-11-03 22:28:35,577 - SmartPhoneScraper - INFO - Start url request 8 / 9: https://www.gsmarena.com/apple_iphone_6s-7242.php
+2021-11-03 22:28:38,867 - SmartPhoneScraper - INFO - Start url request 9 / 9: https://www.gsmarena.com/apple_iphone_6s_plus-7243.php
+2021-11-03 22:28:42,117 - SmartPhoneScraper - INFO - Got 9 smartphone pages
+2021-11-03 22:28:42,138 - SmartPhoneScraper - INFO - Extract Apple iPhone 4s data from https://www.gsmarena.com/apple_iphone_4s-4212.php
+2021-11-03 22:28:42,178 - SmartPhoneScraper - INFO - Extract Apple iPhone 4 CDMA data from https://www.gsmarena.com/apple_iphone_4_cdma-3716.php
+2021-11-03 22:28:42,210 - SmartPhoneScraper - INFO - Extract Apple iPhone 5 data from https://www.gsmarena.com/apple_iphone_5-4910.php
+2021-11-03 22:28:42,250 - SmartPhoneScraper - INFO - Extract Apple iPhone 5s data from https://www.gsmarena.com/apple_iphone_5s-5685.php
+2021-11-03 22:28:42,290 - SmartPhoneScraper - INFO - Extract Apple iPhone 5c data from https://www.gsmarena.com/apple_iphone_5c-5690.php
+2021-11-03 22:28:42,326 - SmartPhoneScraper - INFO - Extract Apple iPhone 6 data from https://www.gsmarena.com/apple_iphone_6-6378.php
+2021-11-03 22:28:42,358 - SmartPhoneScraper - INFO - Extract Apple iPhone 6 Plus data from https://www.gsmarena.com/apple_iphone_6_plus-6665.php
+2021-11-03 22:28:42,410 - SmartPhoneScraper - INFO - Extract Apple iPhone 6s data from https://www.gsmarena.com/apple_iphone_6s-7242.php
+2021-11-03 22:28:42,449 - SmartPhoneScraper - INFO - Extract Apple iPhone 6s Plus data from https://www.gsmarena.com/apple_iphone_6s_plus-7243.php
+2021-11-03 22:28:42,459 - SmartPhoneScraper - INFO - Done extracting Apple smartphone data.
+2021-11-03 22:28:42,459 - SmartPhoneScraper - INFO - Writing data into file
+2021-11-03 22:28:42,466 - SmartPhoneScraper - INFO - Done writing data into file

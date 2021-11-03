@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="848752f3-3635-4399-80ab-3ee11c17ab29" name="Default Changelist" comment="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md">
-      <change afterPath="$PROJECT_DIR$/Database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Smartphone-Scraper2.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phone_scraper_cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/phone_scraper_cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung_smartphone_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung_smartphone_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
