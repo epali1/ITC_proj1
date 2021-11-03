@@ -248,7 +248,7 @@ def to_database(data):
             Loud_Spk = ""
             Jack = ""
 
-        #=> Battary
+        #=> Battery
         try:
             Battery = data_from_file[mobile_models[i]]['Battery']
             try    : Type = Battery['Type']
@@ -277,7 +277,7 @@ def to_database(data):
             Other = ""
 
         # Query 1 : Battery
-        a = '''INSERT INTO `battary`(`Type`, `Charging`) VALUES (%s,%s)'''
+        a = '''INSERT INTO `battery`(`Type`, `Charging`) VALUES (%s,%s)'''
         b = (Type, None)
         run_query(a, b)
         # Query 2 : Body
@@ -329,9 +329,9 @@ def to_database(data):
         b = (Loud_Spk, Jack)
         run_query(a, b)
         # Query 14 : Products
-        a = '''INSERT INTO `product`(`Product_Name`, `display_displaycol`, `Other_Data`, `body_b_id`, `platform_P_id`, `comms_C_id`,
+        a = '''INSERT INTO `Product`(`Product_Name`, `display_displaycol`, `Other_Data`, `body_b_id`, `platform_P_id`, `comms_C_id`,
                                     `selfie_camera_SC_id`, `misc_MI_id`, `network_N_id`, `launch_L_id`, `sound_S_id`, `memory_M_id`,
-                                    `features_f_id`, `main_camera_MC_id`, `battary_B_id`, `display_D_id`) VALUES
+                                    `features_f_id`, `main_camera_MC_id`, `battery_B_id`, `display_D_id`) VALUES
         (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)'''
         name_p = mobile_models[i]
         i = i + 1

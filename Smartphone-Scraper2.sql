@@ -15,9 +15,9 @@ CREATE TABLE IF NOT EXISTS `Product` (
   `memory_M_id`         INT NOT NULL,
   `features_f_id`       INT NOT NULL,
   `main_camera_MC_id`   INT NOT NULL,
-  `battary_B_id`        INT NOT NULL,
+  `battery_B_id`        INT NOT NULL,
   `display_D_id`        INT NOT NULL,
-  PRIMARY KEY (`Product_id`, `body_b_id`, `platform_P_id`, `display_displaycol`, `comms_C_id`, `selfie_camera_SC_id`, `misc_MI_id`, `network_N_id`, `launch_L_id`, `sound_S_id`, `memory_M_id`, `features_f_id`, `main_camera_MC_id`, `battary_B_id`)
+  PRIMARY KEY (`Product_id`, `body_b_id`, `platform_P_id`, `display_displaycol`, `comms_C_id`, `selfie_camera_SC_id`, `misc_MI_id`, `network_N_id`, `launch_L_id`, `sound_S_id`, `memory_M_id`, `features_f_id`, `main_camera_MC_id`, `battery_B_id`)
 );
 
 
@@ -133,7 +133,7 @@ CREATE TABLE IF NOT EXISTS `main_camera` (
 );
 
 
-CREATE TABLE IF NOT EXISTS `Battary` (
+CREATE TABLE IF NOT EXISTS `battery` (
   `B_id` INT NOT NULL AUTO_INCREMENT,
   `Type` VARCHAR(255) NULL DEFAULT NULL,
   `Charging` VARCHAR(255) NULL DEFAULT NULL,
@@ -161,5 +161,5 @@ ALTER TABLE Product  ADD FOREIGN KEY (sound_S_id)          REFERENCES sound(S_id
 ALTER TABLE Product  ADD FOREIGN KEY (memory_M_id)         REFERENCES memory(M_id);
 ALTER TABLE Product  ADD FOREIGN KEY (features_f_id)       REFERENCES features(f_id);
 ALTER TABLE Product  ADD FOREIGN KEY (main_camera_MC_id)   REFERENCES main_camera(MC_id);
-ALTER TABLE Product  ADD FOREIGN KEY (battary_B_id)        REFERENCES Battary(b_id);
+ALTER TABLE Product  ADD FOREIGN KEY (battery_B_id)        REFERENCES battery(b_id);
 ALTER TABLE Product  ADD FOREIGN KEY (display_D_id)        REFERENCES display(D_id);
