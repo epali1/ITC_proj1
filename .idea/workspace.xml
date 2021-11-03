@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="848752f3-3635-4399-80ab-3ee11c17ab29" name="Default Changelist" comment="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Samsung_smartphone_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung_smartphone_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="yair-update" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1v4rr91LbMwmQKduyftPFdx5LIw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings sdk-home="C:\Python39\python.exe">
+        <option name="mySdkHome" value="C:\Python39\python.exe" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yair_laptop\Documents\ITC\Data_Mining_Projects\ITC_proj1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.phone_data_manipulations">
+    <configuration name="phone_data_manipulations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone_data_manipulations.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phone_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ITC_proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phone_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ITC_proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\yair_laptop\Documents\ITC\Data_Mining_Projects\ITC_proj1\phone_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phone_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ITC_proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\yair_laptop\Documents\ITC\Data_Mining_Projects\ITC_proj1\phone_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="phone_scraper_cli" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python39\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/phone_scraper_cli.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_mobile_scraper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ITC_proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests_automation/test_mobile_scraper.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_mobile_scraper.test_smartphone_scraper" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ITC_proj1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests_automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_mobile_scraper.test_smartphone_scraper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.phone_data_manipulations" />
+        <item itemvalue="Python.phone_scraper_cli" />
+        <item itemvalue="Python tests.Python tests for test_mobile_scraper.test_smartphone_scraper" />
+        <item itemvalue="Python.test_mobile_scraper" />
+        <item itemvalue="Python.phone_scraper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="848752f3-3635-4399-80ab-3ee11c17ab29" name="Default Changelist" comment="" />
+      <created>1625832397707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625832397707</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Reorganized script and readme files.&#10; - search phones using site request.&#10; - copy all phone specs-data into dict.&#10; - save results to json file.&#10; #DOTO&#10; - limit requests attempt by time.&#10; - add wrapper function to limit requests.">
+      <created>1626069411195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1626069411195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second Iteration:&#10; - add time delay (3 sec) between requests.&#10; - remove multithreading.&#10; - change smartphones_scraper function to be global:&#10;     * smartphones_scraper(brand = APPLE).&#10;# TODO&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1626159968304</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626159968304</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Requests issue fixed:&#10;   The problem:&#10;      The webpage block ip after more than ~ 20 requests.&#10;   The Solutions:&#10;      Add request header {'User-Agent': 'Mozilla/5.0'}&#10;   The reason: &#10;      The header make the request seem more legit.&#10;      &#10; - change time delay (1 sec) between requests.&#10;# TODO&#10; - clean the code&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1627035689386</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1627035689386</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Requests issue fixed: (cleaned the code)&#10;   The problem:&#10;      The webpage block ip after more than ~ 20 requests.&#10;   The Solutions:&#10;      Add request header {'User-Agent': 'Mozilla/5.0'}&#10;   The reason: &#10;      The header make the request seem more legit.&#10;      &#10; - change time delay (1 sec) between requests.&#10;# TODO&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1627037049116</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1627037049116</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Requests issue fixed: (cleaned the code)&#10;   The problem:&#10;      The webpage block ip after more than ~ 20 requests.&#10;   The Solutions:&#10;      Add request header {'User-Agent': 'Mozilla/5.0'}&#10;   The reason: &#10;      The header make the request seem more legit.&#10;      &#10; - change time delay (1 sec) between requests.&#10;# TODO&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1627037305117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1627037305117</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added logger function (file and stdout)&#10;Added Error handling.&#10;  - should not failed if cannot reach the site.&#10;  - will fail only if there is not data at all&#10;# TODO&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1627242085629</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1627242085629</updated>
+    </task>
+    <task id="LOCAL-00007" summary="improve table extraction.&#10; &#10;# TODO&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)">
+      <created>1627417246277</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1627417246277</updated>
+    </task>
+    <task id="LOCAL-00008" summary="clean and add new tests&#10;create new readme.md file&#10;add requirements.txt&#10;&#10;# TODO&#10;- check Readme.md&#10;- check installation process&#10;- cleanup">
+      <created>1627510829640</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1627510829640</updated>
+    </task>
+    <task id="LOCAL-00009" summary="clean and add new tests&#10;create new readme.md file&#10;add requirements.txt&#10;&#10;# TODO&#10;- check Readme.md&#10;- check installation process&#10;- cleanup">
+      <created>1627510884068</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1627510884068</updated>
+    </task>
+    <task id="LOCAL-00010" summary="- clean config file&#10;- add condition to user choice">
+      <created>1627970955649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1627970955649</updated>
+    </task>
+    <task id="LOCAL-00011" summary="- clean, update and double checking.">
+      <created>1627973624756</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1627973624756</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Add command line interface.&#10;Update readme.md&#10;&#10;TODO:&#10; - fix broke test functions&#10; - Add test for cli &#10; - Add DB options">
+      <created>1629776786461</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1629776786461</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md">
+      <created>1631472328655</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1631472328655</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Reorganized script and readme files.&#10; - search phones using site request.&#10; - copy all phone specs-data into dict.&#10; - save results to json file.&#10; #DOTO&#10; - limit requests attempt by time.&#10; - add wrapper function to limit requests." />
+    <MESSAGE value="Second Iteration:&#10; - add time delay (3 sec) between requests.&#10; - remove multithreading.&#10; - change smartphones_scraper function to be global:&#10;     * smartphones_scraper(brand = APPLE).&#10;# TODO&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)" />
+    <MESSAGE value="Requests issue fixed:&#10;   The problem:&#10;      The webpage block ip after more than ~ 20 requests.&#10;   The Solutions:&#10;      Add request header {'User-Agent': 'Mozilla/5.0'}&#10;   The reason: &#10;      The header make the request seem more legit.&#10;      &#10; - change time delay (1 sec) between requests.&#10;# TODO&#10; - clean the code&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)" />
+    <MESSAGE value="Requests issue fixed: (cleaned the code)&#10;   The problem:&#10;      The webpage block ip after more than ~ 20 requests.&#10;   The Solutions:&#10;      Add request header {'User-Agent': 'Mozilla/5.0'}&#10;   The reason: &#10;      The header make the request seem more legit.&#10;      &#10; - change time delay (1 sec) between requests.&#10;# TODO&#10; - add logger function (file\stdout)&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)" />
+    <MESSAGE value="Added logger function (file and stdout)&#10;Added Error handling.&#10;  - should not failed if cannot reach the site.&#10;  - will fail only if there is not data at all&#10;# TODO&#10; - improve table extraction.&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)" />
+    <MESSAGE value="improve table extraction.&#10; &#10;# TODO&#10; - extract more data from webpage:&#10;    * numbers of likes.&#10;    * number of comments.&#10;    * popularity(hits)" />
+    <MESSAGE value="clean and add new tests&#10;create new readme.md file&#10;add requirements.txt&#10;&#10;# TODO&#10;- check Readme.md&#10;- check installation process&#10;- cleanup" />
+    <MESSAGE value="- clean config file&#10;- add condition to user choice" />
+    <MESSAGE value="- clean, update and double checking." />
+    <MESSAGE value="Add command line interface.&#10;Update readme.md&#10;&#10;TODO:&#10; - fix broke test functions&#10; - Add test for cli &#10; - Add DB options" />
+    <MESSAGE value="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md" />
+  </component>
+</project>
