@@ -5,6 +5,7 @@ import argparse
 from datetime import datetime
 from phone_scraper import *
 from gsmarena_conf import *
+from Database import *
 
 DESC = """-------------SmartPhone Scraper-----------------"""
 USAGE = """A command line interface program to smartphone scrapper.
@@ -86,11 +87,14 @@ def check_db_input(db_opt: str):
     check user DB input
     """
     if db_opt == 'del':
-        print('remove database data')
+        print('removing database data and exiting')
+        if check_if_db_exist():
+            del_db()
         exit(0)
     elif db_opt == 'new':
-        print('remove database data if exist')
-        print('continue and assume database update parameter is given')
+        print('remove database data, if exist')
+        print('create a new database and start scarping')
+        new_db()
 
 
 def main():
@@ -105,6 +109,9 @@ def main():
     for brand in brands:
         phones_data = smartphones_scraper(brand=brand, year_min=args.year_min, year_max=args.year_max)
         save_data(f'{brand}_{args.outfile}', phones_data)
+        if not check_if_db_exist():
+            new_db()
+        to_database(phones_data)
 
 
 if __name__ == "__main__":
