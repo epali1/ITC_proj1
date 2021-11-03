@@ -10,7 +10,9 @@ RESULTS_PAGE = '/results.php3?nYearMin={}&nYearMax={}&sMakers={}&sAvailabilities
 BRANDS = {'Samsung': 9, 'Apple': 48}
 AVAILABLE = '1,3'
 FORM_FACTOR = '1'
-YEAR_RANGE = range(2009, 2022)
+YEAR_MIN = 2009
+YEAR_MAX = 2022
+# YEAR_RANGE = range(2009, 2022)
 # &nbsp  - HTML entity which indicate " space that will not break into a new line"
 NON_BREAK_SPACE = u'\xa0'
 # send request header to fool bot detectors
