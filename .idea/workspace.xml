@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="848752f3-3635-4399-80ab-3ee11c17ab29" name="Default Changelist" comment="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md">
+    <list default="true" id="848752f3-3635-4399-80ab-3ee11c17ab29" name="Default Changelist" comment="fix all databases bugs.&#10;functional state">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database.py" beforeDir="false" afterPath="$PROJECT_DIR$/Database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Samsung_smartphone_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/Samsung_smartphone_data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraper.log" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -308,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631472328655</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix all databases bugs.&#10;functional state">
+      <created>1635971432289</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1635971432289</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -335,6 +341,7 @@
     <MESSAGE value="- clean, update and double checking." />
     <MESSAGE value="Add command line interface.&#10;Update readme.md&#10;&#10;TODO:&#10; - fix broke test functions&#10; - Add test for cli &#10; - Add DB options" />
     <MESSAGE value="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="update command line interface.&#10;Insert DataBase options -- needed to be set.&#10;Update readme.md" />
+    <MESSAGE value="fix all databases bugs.&#10;functional state" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix all databases bugs.&#10;functional state" />
   </component>
 </project>
