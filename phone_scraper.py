@@ -59,7 +59,7 @@ def save_data(filename, data):
     logger.info('Done writing data into file')
 
 
-def get_pages(urls: list[str], delay=REQUEST_DELAY) -> list[requests.models.Response]:
+def get_pages(urls, delay=REQUEST_DELAY):
     """
     return a list of responses from urls addresses
     """
@@ -87,7 +87,7 @@ def get_pages(urls: list[str], delay=REQUEST_DELAY) -> list[requests.models.Resp
     return responses
 
 
-def get_phone_list(pages: list[requests.models.Response]) -> list[str]:
+def get_phone_list(pages):
     """
     return list of url addresses for each phone in search result.
     """
@@ -114,7 +114,7 @@ def _get_table_val(val):
     return val
 
 
-def get_phone_data(page: requests.models.Response) -> dict:
+def get_phone_data(page):
     """
     return all phone properties from website as a dict.
     """
@@ -147,7 +147,7 @@ def get_phone_data(page: requests.models.Response) -> dict:
     return phone_data
 
 
-def smartphones_scraper(brand: str, year_min=YEAR_MIN, year_max=YEAR_MAX) -> list[dict]:
+def smartphones_scraper(brand, year_min=YEAR_MIN, year_max=YEAR_MAX):
     """
     scrape all iphone smartphone data from GSMarena and save data as json.
     """

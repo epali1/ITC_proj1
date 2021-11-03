@@ -68,7 +68,7 @@ def cli() -> argparse.Namespace:
     return args
 
 
-def check_brand_input(brands: list[str]) -> list[str]:
+def check_brand_input(brands):
     """
     check user brand input
     input: brand as a list -> [brand]
@@ -82,7 +82,7 @@ def check_brand_input(brands: list[str]) -> list[str]:
     return brands
 
 
-def check_db_input(db_opt: str):
+def check_db_input(db_opt):
     """
     check user DB input
     """
